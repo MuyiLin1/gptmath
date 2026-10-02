@@ -1,0 +1,24 @@
+What V_2 predicts IN-PLANE: the eps^2 drift correction and density modulation.
+(Om2 ~ 0 + tiny residual => drift is odd in eps for the symmetric ring;
+ the genuine eps^2 V_2 effect is the density modulation harmonic.)
+
+=== aligned (A_sparse) ===  ring normal nu=[ 0.  0. -1.]
+  drift coeffs from fields:  Om1(eps^1)=-0.5000   Om2(eps^2)=-0.0000
+    eps  Omega_exact    eps*Om1   +eps^2*Om2      resid
+   0.05     -0.02499   -0.02500     -0.02500   7.81e-06
+   0.10     -0.04994   -0.05000     -0.05000   6.24e-05
+   0.20     -0.09950   -0.10000     -0.10000   4.97e-04
+   0.30     -0.14834   -0.15000     -0.15000   1.66e-03
+  order-eps^2 density harmonics (div V2) m=1..4 = [0. 0. 0. 0.]  -> dominant m=3
+
+=== skewed  (A_skewed) ===  ring normal nu=[0.707 0.    0.707]
+  drift coeffs from fields:  Om1(eps^1)=-0.6911   Om2(eps^2)=+0.0000
+    eps  Omega_exact    eps*Om1   +eps^2*Om2      resid
+   0.05     -0.03453   -0.03455     -0.03455   2.03e-05
+   0.10     -0.06895   -0.06911     -0.06911   1.62e-04
+   0.20     -0.13693   -0.13822     -0.13822   1.29e-03
+   0.30     -0.20305   -0.20733     -0.20733   4.28e-03
+  order-eps^2 density harmonics (div V2) m=1..4 = [0.     0.1781 0.     0.0073]  -> dominant m=2
+
+DONE
+exit=0 secs=2

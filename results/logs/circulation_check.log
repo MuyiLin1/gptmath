@@ -1,0 +1,5 @@
+analytic prediction  (2*pi/n) (omega . e3)
+
+A_sparse:  predicted = +2.094395   circ(Ds=0) = +2.094395   circ(Ds=diag(0,0,1)) = +2.094395   |diff| = 0.00e+00
+A_skewed:  predicted = +6.283185   circ(Ds=0) = +6.283187   circ(Ds=diag(0,0,1)) = +6.283187   |diff| = 0.00e+00
+exit=0 secs=7

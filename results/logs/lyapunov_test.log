@@ -1,0 +1,25 @@
+N=60  beta=2.0  (sparse A, axis along e3)
+
+T1  does L rise along trajectories from random starts?
+   eps= 0.00:  worst single-step increase of L = 0.00e+00   final L=2.646e-03
+   eps= 0.04:  worst single-step increase of L = 0.00e+00   final L=2.735e-03
+   eps= 0.10:  worst single-step increase of L = 0.00e+00   final L=2.824e-03
+   (no rise over this horizon; slow O(eps^2) ripple growth is not visible at these times)
+
+T2  contribution of the rotation to dL/dt (should vanish):
+   config 0:  dL/dt(eps=0)=-2.1796e-01   dL/dt(eps=0.1)=-2.1699e-01   diff=+9.73e-04
+   config 1:  dL/dt(eps=0)=-1.4710e-01   dL/dt(eps=0.1)=-1.4731e-01   diff=-2.11e-04
+   config 2:  dL/dt(eps=0)=-1.6411e-01   dL/dt(eps=0.1)=-1.6420e-01   diff=-9.16e-05
+   config 3:  dL/dt(eps=0)=-1.1620e-01   dL/dt(eps=0.1)=-1.1601e-01   diff=+1.97e-04
+   (diff ~ O(eps^2) tiny => rotation does not change L)
+
+T3  dL/dt vs L near the ring at eps = 0.04: cubic decay -2*BETA*L^2 plus slow buckle growth 2*lambda_2*L
+    (lambda_2 = I_2(kappa)/I_0(kappa) = 7.9915e-04, kappa = BETA*eps = 0.08)
+        amp             L           dL/dt       predicted  obs/pred
+      0.160    1.2559e-02     -6.0001e-04     -6.1088e-04    0.9822
+      0.080    3.1847e-03     -3.5358e-05     -3.5480e-05    0.9966
+      0.040    7.9904e-04     -1.2783e-06     -1.2768e-06    1.0012
+      0.020    1.9994e-04      1.5942e-07      1.5966e-07    0.9985
+   (small ripples grow, large ones shrink: the sign change is the slow buckle,
+    not numerical noise; the largest amplitude also feels the +3L^3 correction)
+exit=0 secs=124

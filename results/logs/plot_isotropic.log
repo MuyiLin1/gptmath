@@ -1,0 +1,7 @@
+isotropic D_s = 1.0*I, V = -Id, N = 300, dt = 0.05, steps = 4000, seed = 0
+   eps    E start      E end   max E rise  final speed  spin rate
+  0.00    0.59035    0.58760     -1.8e-10     4.84e-05   -0.00000
+  0.05    0.59050    0.58775     -1.7e-10     1.23e-02    0.01565
+  0.10    0.59097    0.58821     -1.6e-10     2.46e-02    0.03129
+saved results/figures/isotropic.png
+exit=0 secs=44

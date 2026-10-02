@@ -1,0 +1,7 @@
+running aligned sweep ...
+running skewed sweep ...
+aligned: apparent (doubling by T=250) threshold eps_c ~ 0.153
+skewed: apparent (doubling by T=250) threshold eps_c ~ 0.051
+saved export/results/figures/buckleThreshold.png
+apparent thresholds (T=250): aligned eps_c ~ 0.153,  skewed eps_c ~ 0.051
+exit=0 secs=647

@@ -1,0 +1,64 @@
+
+========================================================================
+PART 1  invariance of great circles  (predict: machine zero)
+========================================================================
+  trial     eps   beta     N   max |nu . xdot|
+      0  +0.343  0.239   105   4.028e-17
+      1  +0.518  1.056    83   1.665e-16
+      2  +0.903  2.458    28   5.551e-17
+      3  +1.439  4.873    27   8.327e-17
+      4  +0.524  1.878    39   1.041e-16
+      5  -1.485  1.682    67   1.839e-16
+      6  +0.083  1.841    69   1.206e-16
+      7  +1.499  3.903    37   5.551e-17
+
+  worst deviation over all trials: 1.839e-16
+  PASS -- great circles are exactly invariant
+
+  paper's matrices on the equator (nu = e_3):
+    sparse  eps= 0.1:  max |e3 . xdot| = 0.000e+00
+    sparse  eps= 0.3:  max |e3 . xdot| = 0.000e+00
+    sparse  eps= 0.7:  max |e3 . xdot| = 0.000e+00
+    sparse  eps= 2.0:  max |e3 . xdot| = 0.000e+00
+    skewed  eps= 0.1:  max |e3 . xdot| = 0.000e+00
+    skewed  eps= 0.3:  max |e3 . xdot| = 0.000e+00
+    skewed  eps= 0.7:  max |e3 . xdot| = 0.000e+00
+    skewed  eps= 2.0:  max |e3 . xdot| = 0.000e+00
+
+========================================================================
+PART 2  settled states from random starts (aligned eps=0.3; skewed eps=0.7, cluster regime)
+========================================================================
+
+  sparse (aligned),  eps = 0.3
+     seed    planarity   tilt (deg)   normal
+        0    1.021e-03       0.0936   (-0.002, +0.001, +1.000)
+        1    1.717e-03       0.1453   (+0.002, +0.002, +1.000)
+        2    1.293e-03       0.1517   (+0.003, -0.001, +1.000)
+        3    1.420e-03       0.1270   (-0.002, +0.000, +1.000)
+        4    1.995e-03       0.0383   (-0.001, -0.000, +1.000)
+    tilt spread across seeds: 0.1134 deg (mean 0.1112)
+
+  skewed  (clusters),  eps = 0.7
+     seed    planarity   tilt (deg)   normal
+        0    2.303e-16      13.9845   (+0.205, -0.127, +0.970)
+        1    2.249e-11      13.4996   (+0.174, -0.156, +0.972)
+        2   -6.558e-17      14.2815   (+0.187, -0.160, +0.969)
+        3    1.902e-16      12.9054   (+0.167, -0.149, +0.975)
+        4    4.944e-17      12.6358   (+0.180, -0.124, +0.976)
+    tilt spread across seeds: 1.6457 deg (mean 13.4614)
+
+========================================================================
+PART 3  does the field tilt an exactly planar ring?  (Corollary 'geometry')
+========================================================================
+  start: exactly planar ring, normal tilted 30 deg from e_3
+     step   tilt (deg)    planarity
+        0    30.000000    0.000e+00
+     1000    30.000000    2.746e-16
+     2000    42.266963    1.106e-01
+     3000    27.133323    3.618e-02
+     4000    17.959439    2.949e-02
+
+  Reading: while planarity stays ~1e-16 the tilt is exactly 30 deg -- the field
+  does not tilt a flat ring (Corollary 'geometry'). It changes only once the ring
+  buckles (planarity grows), i.e. through the transverse instability.
+exit=0 secs=154

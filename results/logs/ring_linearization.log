@@ -1,0 +1,28 @@
+N = 48, beta = 1.0
+uniform equatorial ring: max residual speed = 8.62e-17  (0 => exact stationary state)
+
+--- LATITUDE block eigenvalues (predicted: -1 once, 0 x (N-1)) ---
+most negative : -1.0000   (predict -1.0)
+2nd negative  : -0.0000   (predict  0.0)
+# below -0.01 : 1   (predict 1)
+# near 0      : 47 / 48
+
+--- AZIMUTH block eigenvalues (predicted: -1/2 twice, 0 x (N-2)) ---
+most negative : -0.5000   (predict -0.5)
+2nd negative  : -0.5000   (predict -0.5)
+3rd negative  : -0.0000   (predict  0.0)
+# below -0.01 : 2   (predict 2)
+# near 0      : 46 / 48
+
+--- rigid z-rotation generator ---
+||J xi|| = 6.68e-17   (predict 0)
+
+--- SUMMARY ---
+Only the 3 rigid placements of the circle contract at linear order:
+  z-tilt           rate ~ 1.000
+  in-plane shift x2 rate ~ 0.500, 0.500
+Remaining 93 on-ring / latitude-ripple modes are linearly neutral.
+Normal hyperbolicity is therefore in the 3 rigid modes that pin the
+z=0 great circle; on-ring redistribution (incl. the rotation phase) is
+neutral at linear order -- the tie the O(eps) ghost force breaks.
+exit=0 secs=5

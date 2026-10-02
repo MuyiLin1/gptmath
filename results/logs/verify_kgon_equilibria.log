@@ -1,0 +1,43 @@
+======================================================================
+TEST 1  EXISTENCE: k-gons are exact relative equilibria
+======================================================================
+ eps=0.3:
+   k=2: out-of-plane=0.0e+00, rate-spread=1.2e-16, STATIC  ok
+   k=3: out-of-plane=0.0e+00, rate-spread=2.5e-16, rate=+0.1483  ok
+   k=4: out-of-plane=0.0e+00, rate-spread=1.1e-16, rate=+0.1489  ok
+   k=5: out-of-plane=0.0e+00, rate-spread=8.3e-17, rate=+0.1483  ok
+   k=6: out-of-plane=0.0e+00, rate-spread=1.1e-16, rate=+0.1483  ok
+ eps=0.7:
+   k=2: out-of-plane=0.0e+00, rate-spread=1.2e-16, STATIC  ok
+   k=3: out-of-plane=0.0e+00, rate-spread=3.3e-16, rate=+0.3301  ok
+   k=4: out-of-plane=0.0e+00, rate-spread=1.1e-16, rate=+0.3364  ok
+   k=5: out-of-plane=0.0e+00, rate-spread=1.7e-16, rate=+0.3302  ok
+   k=6: out-of-plane=0.0e+00, rate-spread=2.2e-16, rate=+0.3301  ok
+ -> TEST 1 PASS
+
+======================================================================
+TEST 2  SELECTION: only k=3 persists under noise
+======================================================================
+   start k=2: ends [10, 10, 10] (dominant 3)  [stays 3]
+   start k=3: ends [15, 15, 15] (dominant 3)  [stays 3]
+   start k=4: ends [21, 20, 19] (dominant 3)  [stays 3]
+   start k=5: ends [26, 25, 24] (dominant 3)  [stays 3]
+   start k=6: ends [30, 30, 30] (dominant 3)  [stays 3]
+ -> TEST 2 PASS (all roads lead to 3)
+
+======================================================================
+TEST 3  GENERIC: random starts -> 3 clusters
+======================================================================
+   k distribution over 10 random seeds: {3: 10}
+ -> TEST 3 PASS (3 every time)
+
+======================================================================
+SUMMARY
+======================================================================
+  TEST 1 (existence, PROVEN theorem): PASS
+  TEST 2 (selection under noise):     PASS
+  TEST 3 (generic random starts):     PASS
+
+  Existence theorem confirmed to machine precision; k=3 selection
+  confirmed numerically.
+exit=0 secs=171

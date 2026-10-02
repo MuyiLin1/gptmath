@@ -1,0 +1,28 @@
+N=60 beta=1.0 eps=kappa=0.2  lambda_2=0.00497  predicted leveling-off L*=0.00497
+
+Part 1: dL/dt vs prediction 2*lambda_2*L - 2*beta*L^2
+    amp           L        dL/dt    predicted
+    0.3   4.217e-02   -2.988e-03   -3.138e-03
+   0.15   1.106e-02   -1.362e-04   -1.349e-04
+   0.08   3.185e-03   +1.100e-05   +1.135e-05
+   0.04   7.990e-04   +6.634e-06   +6.661e-06
+   0.02   1.999e-04   +1.904e-06   +1.906e-06
+   0.01   5.000e-05   +4.915e-07   +4.917e-07
+
+Part 2: L(t) from a small and a large ripple (dt = 0.05)
+      t    small (a=0.005)      large (a=0.3)
+      0          1.250e-05          4.217e-02
+    150          5.106e-05          5.995e-03
+    300          2.033e-04          5.095e-03
+    450          7.366e-04          5.223e-03
+    600          2.030e-03          5.632e-03
+    750          3.547e-03          6.079e-03
+    900          4.371e-03          6.448e-03
+   1050          4.732e-03          6.718e-03
+   1200          5.028e-03          6.913e-03
+   1350          5.395e-03          7.060e-03
+   1500          5.811e-03          7.179e-03
+
+Compare the late values with L* = 4.967e-03.  Also watch for in-plane clumping (m=3),
+which grows faster (rate 3 kappa^2/16) and can take over at long times.
+exit=0 secs=11

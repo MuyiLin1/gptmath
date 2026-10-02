@@ -1,0 +1,5 @@
+eps=0.00  final kinetic energy=1.248e-08  final z_rms=4.442e-02  mean rate(2nd half)=+0.0000
+eps=0.05  final kinetic energy=6.206e-04  final z_rms=4.252e-02  mean rate(2nd half)=+0.0249
+eps=0.10  final kinetic energy=2.482e-03  final z_rms=4.210e-02  mean rate(2nd half)=+0.0498
+saved export/results/figures/persistence.png
+exit=0 secs=68

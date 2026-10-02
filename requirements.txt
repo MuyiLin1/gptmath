@@ -1,0 +1,8 @@
+# Tested with Python 3.14.3 and the versions below.
+numpy>=2.4
+scipy>=1.17
+matplotlib>=3.10
+torch>=2.11
+scikit-learn>=1.8
+# optional, only for verification/qk_asymmetry_check.py:
+# transformers>=5.5

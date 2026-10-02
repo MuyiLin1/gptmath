@@ -1,0 +1,13 @@
+  omega (dual axis of A_skewed) = [0.70710678 0.         0.70710678],  angle to e3 = 45.0 deg
+  Corollary 'geometry': ring normal tilts from e3 in the direction omega x e3, by O(eps)
+
+     eps               tilt (deg), per seed     mean   tilt/eps   planarity
+   0.005 [   0.6669    0.7130    0.6345]   0.6715     134.30    3.36e-03
+    0.01 [   1.3250    1.1286    1.3032]   1.2523     125.23    2.78e-03
+    0.02 [   2.4689    2.3634    1.8352]   2.2225     111.12    3.04e-03
+    0.03 [   3.0383    3.4910    3.2354]   3.2549     108.50    4.02e-03
+    0.04 [   4.6677    5.0151    3.8995]   4.5274     113.19    5.97e-03
+
+  tilt/eps roughly constant => tilt is O(eps) (approximately linear; the drift reflects the approach time).
+  Direction set by omega; size depends on the start (see tilt_check.py).
+exit=0 secs=239

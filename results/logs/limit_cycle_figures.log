@@ -1,0 +1,19 @@
+export/tfdy/plotting.py:210: UserWarning: Scienplots not available!
+  warn('Scienplots not available!')
+export/figures/limit_cycle_figures.py:180: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all Axes decorations.
+  PC.fig.tight_layout(pad=0)
+export/tfdy/plotting.py:210: UserWarning: Scienplots not available!
+  warn('Scienplots not available!')
+export/figures/limit_cycle_figures.py:180: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all Axes decorations.
+  PC.fig.tight_layout(pad=0)
+export/tfdy/plotting.py:210: UserWarning: Scienplots not available!
+  warn('Scienplots not available!')
+export/figures/limit_cycle_figures.py:180: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all Axes decorations.
+  PC.fig.tight_layout(pad=0)
+wrote export/results/figures/symmetric.png
+wrote export/results/figures/sparse.jpg
+wrote export/results/figures/skewed.jpg
+symmetric mean|z|=0.022 mean_speed=0.0000
+sparse    mean|z|=0.022 mean_speed=0.0496
+skewed    mean|z|=0.054 mean_speed=0.0596
+exit=0 secs=29

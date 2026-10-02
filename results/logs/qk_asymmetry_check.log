@@ -1,0 +1,28 @@
+random baseline (200 draws of a Gaussian 768x64 times 64x768): r median 0.999, range 0.993-1.005
+random baseline (200 draws of a Gaussian 960x64 times 64x960): r median 0.999, range 0.996-1.003
+
+GPT-2 small (decoder): 144 heads, M is 768 x 768, Frobenius norms
+  r (as specified)        median 0.962   range 0.290-1.119   IQR 0.916-0.987
+  r with norm gain        median 0.987   range 0.259-1.730
+  per-layer median r: 0.96 0.95 0.92 0.92 0.97 0.93 0.97 0.95 0.99 0.97 0.96 0.97
+
+BERT-base-uncased (encoder): 144 heads, M is 768 x 768, Frobenius norms
+  r (as specified)        median 0.870   range 0.391-1.282   IQR 0.809-0.922
+  r with norm gain        median 0.867   range 0.389-1.284
+  per-layer median r: 0.84 0.79 0.82 0.88 0.87 0.89 0.89 0.92 0.90 0.83 0.79 0.87
+
+ModernBERT-base (encoder): 264 heads, M is 768 x 768, Frobenius norms
+  r (as specified)        median 0.922   range 0.218-1.088   IQR 0.710-0.984
+  r with norm gain        median 0.922   range 0.215-1.078
+  per-layer median r: 0.82 0.92 0.95 0.80 0.97 0.99 0.79 1.00 0.98 0.57 0.98 0.98 0.58 0.98 0.93 0.43 0.93 0.99 0.49 0.97 0.97 0.73
+
+SmolLM2-360M (decoder): 480 heads, M is 960 x 960, Frobenius norms
+  r (as specified)        median 0.979   range 0.403-1.328   IQR 0.945-0.997
+  r with norm gain        median 0.980   range 0.367-1.342
+  per-layer median r: 0.94 0.99 0.98 0.99 0.98 0.99 0.99 0.96 0.99 0.92 0.98 1.00 0.96 0.99 0.98 0.98 0.94 0.94 0.98 1.00 0.92 0.99 0.99 0.97 0.97 0.99 0.99 0.97 0.98 0.96 1.00 0.99
+
+GPT-2 median r / BERT median r = 1.11
+fraction of GPT-2 heads above BERT's median: 0.85
+SmolLM2 median r / ModernBERT median r = 1.06
+fraction of SmolLM2 heads above ModernBERT's median: 0.82
+exit=0 secs=16
