@@ -1,0 +1,14 @@
+Part 1. Field at the uniform measure: direct quadrature vs formula
+  beta=0.5 eps=0.05: max relative error 6.1e-06; max fraction of the field not along the rotation 6.1e-06
+  beta=0.5 eps=0.10: max relative error 3.5e-06; max fraction of the field not along the rotation 3.5e-06
+  beta=0.5 eps=0.50: max relative error 7.2e-07; max fraction of the field not along the rotation 6.8e-07
+  beta=1.0 eps=0.05: max relative error 1.4e-05; max fraction of the field not along the rotation 1.4e-05
+  beta=1.0 eps=0.10: max relative error 8.6e-06; max fraction of the field not along the rotation 8.6e-06
+  beta=1.0 eps=0.50: max relative error 1.1e-06; max fraction of the field not along the rotation 1.0e-06
+  beta=2.0 eps=0.05: max relative error 4.2e-05; max fraction of the field not along the rotation 4.2e-05
+  beta=2.0 eps=0.10: max relative error 2.2e-05; max fraction of the field not along the rotation 2.2e-05
+  beta=2.0 eps=0.50: max relative error 3.9e-06; max fraction of the field not along the rotation 3.9e-06
+
+Part 2. Predicted spin rate about omega (beta = 1)
+  eps=0.05: small-eps rate eps*rho(1) = 0.01565; exact mean over sigma = 0.01565; measured in plot_isotropic.py = 0.01565
+  eps=0.10: small-eps rate eps*rho(1) = 0.03130; exact mean over sigma = 0.03129; measured in plot_isotropic.py = 0.03129
