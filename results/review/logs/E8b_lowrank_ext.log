@@ -1,0 +1,113 @@
+[E8] 1/84 (2s) S^2 V=-0.1 eps=0.1 seed=0 ring: speed=4.99e-02 spin=+0.0499 L=9.1e-07 k=50
+[E8] 2/84 (2s) S^2 V=-0.1 eps=0.1 seed=0 random: speed=4.84e-02 spin=+0.0490 L=1.8e-02 k=91
+[E8] 3/84 (2s) S^2 V=0.1 eps=0.1 seed=0 random: speed=1.11e-12 spin=+0.0000 L=1.0e+00 k=2
+[E8] 4/84 (4s) S^2 V=0.1 eps=0.1 seed=0 ring: speed=2.70e-13 spin=+0.0000 L=1.0e+00 k=1
+[E8] 5/84 (4s) S^2 V=-0.1 eps=0.1 seed=1 random: speed=4.82e-02 spin=+0.0488 L=1.8e-02 k=87
+[E8] 6/84 (6s) S^2 V=-0.1 eps=0.1 seed=1 ring: speed=4.99e-02 spin=+0.0499 L=8.6e-07 k=50
+[E8] 7/84 (6s) S^2 V=0.1 eps=0.1 seed=1 random: speed=1.10e-14 spin=+0.0000 L=1.0e+00 k=1
+[E8] 8/84 (7s) S^2 V=0.1 eps=0.1 seed=1 ring: speed=4.80e-14 spin=-0.0000 L=1.0e+00 k=1
+[E8] 9/84 (9s) S^2 V=-0.1 eps=0.1 seed=2 random: speed=4.81e-02 spin=+0.0488 L=2.2e-02 k=76
+[E8] 10/84 (11s) S^2 V=-0.1 eps=0.1 seed=2 ring: speed=4.99e-02 spin=+0.0499 L=9.0e-07 k=50
+[E8] 11/84 (13s) S^2 V=0.1 eps=0.1 seed=2 random: speed=4.02e-11 spin=+0.0000 L=1.0e+00 k=2
+[E8] 12/84 (15s) S^2 V=0.1 eps=0.1 seed=2 ring: speed=1.15e-13 spin=-0.0000 L=1.0e+00 k=1
+[E8] 13/84 (20s) S^2 V=0 eps=0.1 seed=0 random: speed=2.82e-02 spin=+0.0346 L=2.9e-01 k=128
+[E8] 14/84 (22s) S^2 V=-0.1 eps=0.1 seed=3 random: speed=4.84e-02 spin=+0.0490 L=1.7e-02 k=90
+[E8] 15/84 (23s) S^2 V=-0.1 eps=0.1 seed=3 ring: speed=4.99e-02 spin=+0.0499 L=9.1e-07 k=50
+[E8] 16/84 (23s) S^2 V=0 eps=0.1 seed=1 random: speed=2.60e-02 spin=+0.0328 L=3.2e-01 k=153
+[E8] 17/84 (25s) S^2 V=0.1 eps=0.1 seed=3 ring: speed=5.91e-13 spin=-0.0000 L=1.0e+00 k=1
+[E8] 18/84 (25s) S^2 V=0.1 eps=0.1 seed=3 random: speed=7.96e-12 spin=-0.0000 L=1.0e+00 k=2
+[E8] 19/84 (27s) S^2 V=-0.1 eps=0.1 seed=4 random: speed=4.85e-02 spin=+0.0489 L=1.7e-02 k=87
+[E8] 20/84 (29s) S^2 V=-0.1 eps=0.1 seed=4 ring: speed=4.99e-02 spin=+0.0499 L=1.0e-06 k=50
+[E8] 21/84 (31s) S^2 V=0.1 eps=0.1 seed=4 random: speed=9.84e-12 spin=+0.0000 L=1.0e+00 k=2
+[E8] 22/84 (32s) S^2 V=0 eps=0.1 seed=2 random: speed=2.77e-02 spin=+0.0341 L=3.0e-01 k=128
+[E8] 23/84 (32s) S^2 V=0.1 eps=0.1 seed=4 ring: speed=3.39e-13 spin=+0.0000 L=1.0e+00 k=1
+[E8] 24/84 (40s) S^4 V=-P12 eps=0.1 seed=0 random: speed=8.59e-03 spin=+0.0162 L=6.6e-01 k=120
+[E8] 25/84 (43s) S^2 V=0 eps=0.1 seed=3 random: speed=2.79e-02 spin=+0.0343 L=3.0e-01 k=123
+[E8] 26/84 (48s) S^4 V=-P12 eps=0.1 seed=1 random: speed=1.06e-02 spin=+0.0187 L=6.1e-01 k=120
+[E8] 27/84 (50s) S^2 V=0 eps=0.1 seed=4 random: speed=2.51e-02 spin=+0.0321 L=3.4e-01 k=149
+[E8] 28/84 (50s) S^2 V=-0.1 eps=0.3 seed=0 random: speed=1.45e-01 spin=+0.1461 L=1.4e-02 k=23
+[E8] 29/84 (51s) S^4 V=-P12 eps=0.1 seed=2 random: speed=8.37e-03 spin=+0.0162 L=6.7e-01 k=120
+[E8] 30/84 (52s) S^2 V=0.1 eps=0.3 seed=0 random: speed=1.24e-12 spin=+0.0000 L=1.0e+00 k=2
+[E8] 31/84 (52s) S^2 V=-0.1 eps=0.3 seed=0 ring: speed=1.48e-01 spin=+0.1483 L=6.3e-07 k=52
+[E8] 32/84 (53s) S^2 V=0.1 eps=0.3 seed=0 ring: speed=2.83e-13 spin=+0.0000 L=1.0e+00 k=1
+[E8] 33/84 (54s) S^2 V=-0.1 eps=0.3 seed=1 random: speed=1.45e-01 spin=+0.1462 L=1.3e-02 k=10
+[E8] 34/84 (54s) S^2 V=-0.1 eps=0.3 seed=1 ring: speed=1.48e-01 spin=+0.1483 L=5.9e-07 k=54
+[E8] 35/84 (56s) S^2 V=0.1 eps=0.3 seed=1 random: speed=1.68e-14 spin=+0.0000 L=1.0e+00 k=1
+[E8] 36/84 (56s) S^2 V=0.1 eps=0.3 seed=1 ring: speed=4.99e-14 spin=-0.0000 L=1.0e+00 k=1
+[E8] 37/84 (58s) S^2 V=-0.1 eps=0.3 seed=2 random: speed=1.47e-01 spin=+0.1473 L=6.4e-03 k=9
+[E8] 38/84 (60s) S^2 V=-0.1 eps=0.3 seed=2 ring: speed=1.48e-01 spin=+0.1483 L=6.2e-07 k=52
+[E8] 39/84 (62s) S^2 V=0.1 eps=0.3 seed=2 random: speed=5.48e-11 spin=+0.0000 L=1.0e+00 k=2
+[E8] 40/84 (63s) S^2 V=0.1 eps=0.3 seed=2 ring: speed=1.21e-13 spin=-0.0000 L=1.0e+00 k=1
+[E8] 41/84 (70s) S^2 V=0 eps=0.3 seed=0 random: speed=1.45e-01 spin=+0.1469 L=1.0e-02 k=5
+[E8] 42/84 (72s) S^2 V=-0.1 eps=0.3 seed=3 random: speed=1.47e-01 spin=+0.1474 L=4.6e-03 k=8
+[E8] 43/84 (74s) S^2 V=-0.1 eps=0.3 seed=3 ring: speed=1.48e-01 spin=+0.1483 L=6.2e-07 k=55
+[E8] 44/84 (74s) S^2 V=0 eps=0.3 seed=1 random: speed=1.48e-01 spin=+0.1482 L=3.0e-04 k=4
+[E8] 45/84 (76s) S^2 V=0.1 eps=0.3 seed=3 ring: speed=6.21e-13 spin=-0.0000 L=1.0e+00 k=1
+[E8] 46/84 (76s) S^2 V=0.1 eps=0.3 seed=3 random: speed=7.71e-12 spin=+0.0000 L=1.0e+00 k=2
+[E8] 47/84 (78s) S^2 V=-0.1 eps=0.3 seed=4 random: speed=1.45e-01 spin=+0.1460 L=1.3e-02 k=25
+[E8] 48/84 (80s) S^2 V=-0.1 eps=0.3 seed=4 ring: speed=1.48e-01 spin=+0.1483 L=6.7e-07 k=52
+[E8] 49/84 (82s) S^2 V=0.1 eps=0.3 seed=4 random: speed=1.02e-11 spin=+0.0000 L=1.0e+00 k=2
+[E8] 50/84 (82s) S^2 V=0 eps=0.3 seed=2 random: speed=1.48e-01 spin=+0.1483 L=3.0e-13 k=3
+[E8] 51/84 (84s) S^2 V=0.1 eps=0.3 seed=4 ring: speed=3.55e-13 spin=+0.0000 L=1.0e+00 k=1
+[E8] 52/84 (92s) S^4 V=-P12 eps=0.3 seed=0 random: speed=9.27e-02 spin=+0.1135 L=2.3e-01 k=36
+[E8] 53/84 (95s) S^2 V=0 eps=0.3 seed=3 random: speed=1.48e-01 spin=+0.1483 L=4.1e-11 k=3
+[E8] 54/84 (101s) S^4 V=-P12 eps=0.3 seed=1 random: speed=9.14e-02 spin=+0.1120 L=2.3e-01 k=35
+[E8] 55/84 (101s) S^2 V=0 eps=0.3 seed=4 random: speed=1.42e-01 spin=+0.1448 L=2.5e-02 k=7
+[E8] 56/84 (103s) S^2 V=-0.1 eps=0.6 seed=0 random: speed=2.87e-01 spin=+0.2871 L=4.1e-08 k=3
+[E8] 57/84 (103s) S^2 V=-0.1 eps=0.6 seed=0 ring: speed=2.87e-01 spin=+0.2872 L=1.1e-15 k=3
+[E8] 58/84 (104s) S^4 V=-P12 eps=0.3 seed=2 random: speed=1.17e-01 spin=+0.1305 L=1.2e-01 k=18
+[E8] 59/84 (105s) S^2 V=0.1 eps=0.6 seed=0 random: speed=9.53e-13 spin=-0.0000 L=1.0e+00 k=2
+[E8] 60/84 (105s) S^2 V=0.1 eps=0.6 seed=0 ring: speed=3.30e-13 spin=+0.0000 L=1.0e+00 k=1
+[E8] 61/84 (107s) S^2 V=-0.1 eps=0.6 seed=1 random: speed=2.87e-01 spin=+0.2870 L=8.2e-05 k=4
+[E8] 62/84 (107s) S^2 V=-0.1 eps=0.6 seed=1 ring: speed=2.87e-01 spin=+0.2872 L=1.1e-14 k=3
+[E8] 63/84 (108s) S^2 V=0.1 eps=0.6 seed=1 random: speed=7.94e-15 spin=-0.0000 L=1.0e+00 k=1
+[E8] 64/84 (108s) S^2 V=0.1 eps=0.6 seed=1 ring: speed=5.64e-14 spin=+0.0000 L=1.0e+00 k=1
+[E8] 65/84 (110s) S^2 V=-0.1 eps=0.6 seed=2 random: speed=2.87e-01 spin=+0.2872 L=1.3e-09 k=3
+[E8] 66/84 (112s) S^2 V=-0.1 eps=0.6 seed=2 ring: speed=2.87e-01 spin=+0.2872 L=9.8e-16 k=3
+[E8] 67/84 (114s) S^2 V=0.1 eps=0.6 seed=2 random: speed=1.09e-10 spin=+0.0000 L=1.0e+00 k=2
+[E8] 68/84 (116s) S^2 V=0.1 eps=0.6 seed=2 ring: speed=1.38e-13 spin=-0.0000 L=1.0e+00 k=1
+[E8] 69/84 (122s) S^2 V=0 eps=0.6 seed=0 random: speed=2.87e-01 spin=+0.2872 L=1.4e-119 k=3
+[E8] 70/84 (124s) S^2 V=-0.1 eps=0.6 seed=3 random: speed=2.87e-01 spin=+0.2870 L=1.2e-09 k=3
+[E8] 71/84 (125s) S^2 V=-0.1 eps=0.6 seed=3 ring: speed=2.87e-01 spin=+0.2872 L=1.6e-14 k=3
+[E8] 72/84 (127s) S^2 V=0 eps=0.6 seed=1 random: speed=2.87e-01 spin=+0.2872 L=1.7e-112 k=3
+[E8] 73/84 (127s) S^2 V=0.1 eps=0.6 seed=3 random: speed=7.76e-12 spin=+0.0000 L=1.0e+00 k=2
+[E8] 74/84 (128s) S^2 V=0.1 eps=0.6 seed=3 ring: speed=7.31e-13 spin=-0.0000 L=1.0e+00 k=1
+[E8] 75/84 (130s) S^2 V=-0.1 eps=0.6 seed=4 random: speed=2.87e-01 spin=+0.2870 L=2.0e-08 k=3
+[E8] 76/84 (132s) S^2 V=-0.1 eps=0.6 seed=4 ring: speed=2.87e-01 spin=+0.2872 L=4.9e-16 k=3
+[E8] 77/84 (134s) S^2 V=0.1 eps=0.6 seed=4 random: speed=1.09e-11 spin=+0.0000 L=1.0e+00 k=2
+[E8] 78/84 (134s) S^2 V=0 eps=0.6 seed=2 random: speed=2.87e-01 spin=+0.2872 L=6.3e-111 k=3
+[E8] 79/84 (135s) S^2 V=0.1 eps=0.6 seed=4 ring: speed=4.17e-13 spin=+0.0000 L=1.0e+00 k=1
+[E8] 80/84 (143s) S^4 V=-P12 eps=0.6 seed=0 random: speed=2.87e-01 spin=+0.2872 L=4.5e-126 k=3
+[E8] 81/84 (146s) S^2 V=0 eps=0.6 seed=3 random: speed=2.87e-01 spin=+0.2872 L=3.6e-124 k=3
+[E8] 82/84 (151s) S^4 V=-P12 eps=0.6 seed=1 random: speed=2.87e-01 spin=+0.2872 L=4.0e-115 k=3
+[E8] 83/84 (152s) S^2 V=0 eps=0.6 seed=4 random: speed=2.87e-01 spin=+0.2872 L=1.1e-115 k=3
+[E8] 84/84 (154s) S^4 V=-P12 eps=0.6 seed=2 random: speed=2.87e-01 spin=+0.2872 L=2.3e-113 k=3
+
+SUMMARY (median over seeds)
+sph  V       eps start  |     speed      spin  eps/2 |        L    k
+S^2  -0.1    0.1 random |  4.84e-02   +0.0489  0.050 |  1.8e-02   87  (k per seed: [76, 87, 87, 90, 91])
+S^2  -0.1    0.1 ring   |  4.99e-02   +0.0499  0.050 |  9.1e-07   50  (k per seed: [50, 50, 50, 50, 50])
+S^2  -0.1    0.3 random |  1.45e-01   +0.1462  0.150 |  1.3e-02   10  (k per seed: [8, 9, 10, 23, 25])
+S^2  -0.1    0.3 ring   |  1.48e-01   +0.1483  0.150 |  6.2e-07   52  (k per seed: [52, 52, 52, 54, 55])
+S^2  -0.1    0.6 random |  2.87e-01   +0.2870  0.300 |  2.0e-08    3  (k per seed: [3, 3, 3, 3, 4])
+S^2  -0.1    0.6 ring   |  2.87e-01   +0.2872  0.300 |  1.1e-15    3  (k per seed: [3, 3, 3, 3, 3])
+S^2  0       0.1 random |  2.77e-02   +0.0341  0.050 |  3.0e-01  128  (k per seed: [123, 128, 128, 149, 153])
+      L every 250: 3.5e-01 3.5e-01 3.5e-01 3.5e-01 3.4e-01 3.4e-01 3.4e-01 3.3e-01 3.3e-01 3.3e-01 3.3e-01 3.2e-01 3.2e-01 3.1e-01 3.1e-01 3.0e-01
+S^2  0       0.3 random |  1.48e-01   +0.1482  0.150 |  3.0e-04    4  (k per seed: [3, 3, 4, 5, 7])
+      L every 250: 3.5e-01 3.2e-01 2.2e-01 1.3e-01 1.1e-01 9.5e-02 7.3e-02 5.3e-02 4.0e-02 3.1e-02 2.2e-02 1.3e-02 1.0e-02 1.0e-02 7.1e-03 4.2e-03
+S^2  0       0.6 random |  2.87e-01   +0.2872  0.300 | 1.1e-115    3  (k per seed: [3, 3, 3, 3, 3])
+      L every 250: 3.5e-01 3.9e-02 4.2e-03 7.8e-09 4.7e-17 2.9e-25 1.7e-33 1.0e-41 6.3e-50 3.8e-58 2.3e-66 1.4e-74 8.5e-83 5.2e-91 3.1e-99 1.9e-107
+S^2  0.1     0.1 random |  7.96e-12   +0.0000  0.050 |  1.0e+00    2  (k per seed: [1, 2, 2, 2, 2])
+S^2  0.1     0.1 ring   |  2.70e-13   -0.0000  0.050 |  1.0e+00    1  (k per seed: [1, 1, 1, 1, 1])
+S^2  0.1     0.3 random |  7.71e-12   +0.0000  0.150 |  1.0e+00    2  (k per seed: [1, 2, 2, 2, 2])
+S^2  0.1     0.3 ring   |  2.83e-13   -0.0000  0.150 |  1.0e+00    1  (k per seed: [1, 1, 1, 1, 1])
+S^2  0.1     0.6 random |  7.76e-12   +0.0000  0.300 |  1.0e+00    2  (k per seed: [1, 2, 2, 2, 2])
+S^2  0.1     0.6 ring   |  3.30e-13   +0.0000  0.300 |  1.0e+00    1  (k per seed: [1, 1, 1, 1, 1])
+S^4  -P12    0.1 random |  8.59e-03   +0.0162  0.050 |  6.6e-01  120  (k per seed: [120, 120, 120])
+      L every 250: 6.2e-01 6.6e-01 6.6e-01 6.6e-01 6.6e-01 6.6e-01 6.6e-01 6.6e-01 6.6e-01 6.6e-01 6.6e-01 6.6e-01 6.6e-01 6.6e-01 6.6e-01 6.6e-01
+S^4  -P12    0.3 random |  9.27e-02   +0.1135  0.150 |  2.3e-01   35  (k per seed: [18, 35, 36])
+      L every 250: 6.2e-01 6.4e-01 6.0e-01 5.1e-01 4.2e-01 3.2e-01 3.1e-01 3.0e-01 2.8e-01 2.7e-01 2.7e-01 2.7e-01 2.7e-01 2.6e-01 2.5e-01 2.4e-01
+S^4  -P12    0.6 random |  2.87e-01   +0.2872  0.300 | 4.0e-115    3  (k per seed: [3, 3, 3])
+      L every 250: 6.2e-01 2.8e-01 5.4e-02 2.6e-02 7.9e-03 2.0e-09 4.8e-19 1.2e-28 2.9e-38 7.2e-48 1.8e-57 4.4e-67 1.1e-76 2.7e-86 6.5e-96 1.6e-105
+
+saved E8b_lowrank_ext.json

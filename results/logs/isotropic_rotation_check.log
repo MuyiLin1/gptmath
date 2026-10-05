@@ -12,3 +12,4 @@ Part 1. Field at the uniform measure: direct quadrature vs formula
 Part 2. Predicted spin rate about omega (beta = 1)
   eps=0.05: small-eps rate eps*rho(1) = 0.01565; exact mean over sigma = 0.01565; measured in plot_isotropic.py = 0.01565
   eps=0.10: small-eps rate eps*rho(1) = 0.03130; exact mean over sigma = 0.03129; measured in plot_isotropic.py = 0.03129
+exit=0 secs=6

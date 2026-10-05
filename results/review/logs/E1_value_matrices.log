@@ -1,0 +1,222 @@
+[E1] 1/180 done (2s): axis V=-Id eps=0.1 seed=0 ring: speed=4.99e-02 spin=+0.0499 k=50
+[E1] 2/180 done (2s): axis V=-Id eps=0.1 seed=0 random: speed=4.98e-02 spin=+0.0498 k=51
+[E1] 3/180 done (4s): axis V=-Id eps=0.1 seed=1 ring: speed=4.99e-02 spin=+0.0499 k=50
+[E1] 4/180 done (4s): axis V=-Id eps=0.1 seed=1 random: speed=4.95e-02 spin=+0.0495 k=48
+[E1] 5/180 done (5s): axis V=-Id eps=0.1 seed=2 random: speed=4.97e-02 spin=+0.0498 k=47
+[E1] 6/180 done (6s): axis V=-Id eps=0.1 seed=2 ring: speed=4.99e-02 spin=+0.0499 k=50
+[E1] 7/180 done (7s): axis V=-Id eps=0.1 seed=3 random: speed=4.98e-02 spin=+0.0498 k=50
+[E1] 8/180 done (7s): axis V=-Id eps=0.1 seed=3 ring: speed=4.99e-02 spin=+0.0499 k=50
+[E1] 9/180 done (9s): axis V=-Id eps=0.1 seed=4 random: speed=4.98e-02 spin=+0.0498 k=50
+[E1] 10/180 done (9s): axis V=-Id eps=0.1 seed=4 ring: speed=4.99e-02 spin=+0.0499 k=50
+[E1] 11/180 done (11s): axis V=-Id eps=0.3 seed=0 random: speed=1.48e-01 spin=+0.1480 k=10
+[E1] 12/180 done (11s): axis V=-Id eps=0.3 seed=0 ring: speed=1.48e-01 spin=+0.1483 k=52
+[E1] 13/180 done (13s): axis V=-Id eps=0.3 seed=1 random: speed=1.48e-01 spin=+0.1479 k=6
+[E1] 14/180 done (13s): axis V=-Id eps=0.3 seed=1 ring: speed=1.48e-01 spin=+0.1483 k=54
+[E1] 15/180 done (15s): axis V=-Id eps=0.3 seed=2 random: speed=1.48e-01 spin=+0.1483 k=3
+[E1] 16/180 done (15s): axis V=-Id eps=0.3 seed=2 ring: speed=1.48e-01 spin=+0.1483 k=52
+[E1] 17/180 done (16s): axis V=-Id eps=0.3 seed=3 random: speed=1.47e-01 spin=+0.1477 k=10
+[E1] 18/180 done (16s): axis V=-Id eps=0.3 seed=3 ring: speed=1.48e-01 spin=+0.1483 k=55
+[E1] 19/180 done (18s): axis V=-Id eps=0.3 seed=4 random: speed=1.48e-01 spin=+0.1482 k=4
+[E1] 20/180 done (18s): axis V=-Id eps=0.3 seed=4 ring: speed=1.48e-01 spin=+0.1483 k=52
+[E1] 21/180 done (20s): axis V=-Id eps=0.6 seed=0 random: speed=2.87e-01 spin=+0.2870 k=3
+[E1] 22/180 done (20s): axis V=-Id eps=0.6 seed=0 ring: speed=2.87e-01 spin=+0.2872 k=3
+[E1] 23/180 done (21s): axis V=-Id eps=0.6 seed=1 random: speed=2.87e-01 spin=+0.2868 k=3
+[E1] 24/180 done (22s): axis V=-Id eps=0.6 seed=1 ring: speed=2.87e-01 spin=+0.2872 k=3
+[E1] 25/180 done (23s): axis V=-Id eps=0.6 seed=2 random: speed=2.87e-01 spin=+0.2872 k=3
+[E1] 26/180 done (24s): axis V=-Id eps=0.6 seed=2 ring: speed=2.87e-01 spin=+0.2872 k=3
+[E1] 27/180 done (25s): axis V=-Id eps=0.6 seed=3 random: speed=2.87e-01 spin=+0.2867 k=3
+[E1] 28/180 done (25s): axis V=-Id eps=0.6 seed=3 ring: speed=2.87e-01 spin=+0.2872 k=3
+[E1] 29/180 done (27s): axis V=-Id eps=0.6 seed=4 random: speed=2.87e-01 spin=+0.2871 k=3
+[E1] 30/180 done (27s): axis V=-Id eps=0.6 seed=4 ring: speed=2.87e-01 spin=+0.2872 k=3
+[E1] 31/180 done (29s): axis V=+Id eps=0.1 seed=0 random: speed=1.08e-15 spin=-0.0000 k=1
+[E1] 32/180 done (29s): axis V=+Id eps=0.1 seed=0 ring: speed=2.22e-16 spin=-0.0000 k=1
+[E1] 33/180 done (30s): axis V=+Id eps=0.1 seed=1 ring: speed=2.22e-16 spin=-0.0000 k=1
+[E1] 34/180 done (30s): axis V=+Id eps=0.1 seed=1 random: speed=6.43e-16 spin=+0.0000 k=1
+[E1] 35/180 done (32s): axis V=+Id eps=0.1 seed=2 random: speed=1.38e-15 spin=+0.0000 k=1
+[E1] 36/180 done (32s): axis V=+Id eps=0.1 seed=2 ring: speed=1.12e-16 spin=-0.0000 k=1
+[E1] 37/180 done (34s): axis V=+Id eps=0.1 seed=3 random: speed=4.96e-16 spin=+0.0000 k=1
+[E1] 38/180 done (34s): axis V=+Id eps=0.1 seed=3 ring: speed=1.67e-16 spin=+0.0000 k=1
+[E1] 39/180 done (35s): axis V=+Id eps=0.1 seed=4 random: speed=1.22e-15 spin=-0.0000 k=1
+[E1] 40/180 done (35s): axis V=+Id eps=0.1 seed=4 ring: speed=1.71e-16 spin=-0.0000 k=1
+[E1] 41/180 done (37s): axis V=+Id eps=0.3 seed=0 ring: speed=1.15e-16 spin=+0.0000 k=1
+[E1] 42/180 done (37s): axis V=+Id eps=0.3 seed=0 random: speed=1.39e-15 spin=+0.0000 k=1
+[E1] 43/180 done (39s): axis V=+Id eps=0.3 seed=1 random: speed=3.65e-16 spin=-0.0000 k=1
+[E1] 44/180 done (39s): axis V=+Id eps=0.3 seed=1 ring: speed=1.12e-16 spin=-0.0000 k=1
+[E1] 45/180 done (41s): axis V=+Id eps=0.3 seed=2 ring: speed=1.12e-16 spin=-0.0000 k=1
+[E1] 46/180 done (41s): axis V=+Id eps=0.3 seed=2 random: speed=1.35e-15 spin=+0.0000 k=1
+[E1] 47/180 done (42s): axis V=+Id eps=0.3 seed=3 ring: speed=1.12e-16 spin=+0.0000 k=1
+[E1] 48/180 done (42s): axis V=+Id eps=0.3 seed=3 random: speed=7.82e-16 spin=-0.0000 k=1
+[E1] 49/180 done (44s): axis V=+Id eps=0.3 seed=4 ring: speed=1.15e-16 spin=+0.0000 k=1
+[E1] 50/180 done (44s): axis V=+Id eps=0.3 seed=4 random: speed=1.25e-15 spin=-0.0000 k=1
+[E1] 51/180 done (46s): axis V=+Id eps=0.6 seed=0 ring: speed=2.22e-16 spin=+0.0000 k=1
+[E1] 52/180 done (46s): axis V=+Id eps=0.6 seed=0 random: speed=8.16e-16 spin=-0.0000 k=1
+[E1] 53/180 done (48s): axis V=+Id eps=0.6 seed=1 random: speed=5.48e-16 spin=-0.0000 k=1
+[E1] 54/180 done (48s): axis V=+Id eps=0.6 seed=1 ring: speed=1.67e-16 spin=-0.0000 k=1
+[E1] 55/180 done (50s): axis V=+Id eps=0.6 seed=2 random: speed=7.83e-16 spin=-0.0000 k=1
+[E1] 56/180 done (50s): axis V=+Id eps=0.6 seed=2 ring: speed=1.12e-16 spin=-0.0000 k=1
+[E1] 57/180 done (52s): axis V=+Id eps=0.6 seed=3 random: speed=7.17e-16 spin=-0.0000 k=1
+[E1] 58/180 done (52s): axis V=+Id eps=0.6 seed=3 ring: speed=1.67e-16 spin=-0.0000 k=1
+[E1] 59/180 done (54s): axis V=+Id eps=0.6 seed=4 random: speed=1.07e-15 spin=-0.0000 k=1
+[E1] 60/180 done (54s): axis V=+Id eps=0.6 seed=4 ring: speed=1.14e-16 spin=+0.0000 k=1
+[E1] 61/180 done (56s): axis V=-D eps=0.1 seed=0 random: speed=2.33e-03 spin=-0.0001 k=62
+[E1] 62/180 done (56s): axis V=-D eps=0.1 seed=0 ring: speed=4.41e-05 spin=-0.0000 k=50
+[E1] 63/180 done (57s): axis V=-D eps=0.1 seed=1 random: speed=3.01e-03 spin=-0.0003 k=61
+[E1] 64/180 done (58s): axis V=-D eps=0.1 seed=1 ring: speed=3.92e-05 spin=-0.0000 k=50
+[E1] 65/180 done (59s): axis V=-D eps=0.1 seed=2 random: speed=2.10e-03 spin=-0.0001 k=64
+[E1] 66/180 done (59s): axis V=-D eps=0.1 seed=2 ring: speed=2.90e-05 spin=-0.0000 k=50
+[E1] 67/180 done (61s): axis V=-D eps=0.1 seed=3 random: speed=4.78e-03 spin=-0.0006 k=59
+[E1] 68/180 done (61s): axis V=-D eps=0.1 seed=3 ring: speed=3.06e-05 spin=-0.0000 k=50
+[E1] 69/180 done (63s): axis V=-D eps=0.1 seed=4 random: speed=3.37e-03 spin=-0.0003 k=63
+[E1] 70/180 done (63s): axis V=-D eps=0.1 seed=4 ring: speed=6.39e-05 spin=-0.0000 k=50
+[E1] 71/180 done (64s): axis V=-D eps=0.3 seed=0 random: speed=3.98e-05 spin=-0.0000 k=6
+[E1] 72/180 done (65s): axis V=-D eps=0.3 seed=0 ring: speed=2.34e-04 spin=-0.0000 k=6
+[E1] 73/180 done (66s): axis V=-D eps=0.3 seed=1 random: speed=1.49e-04 spin=-0.0001 k=8
+[E1] 74/180 done (67s): axis V=-D eps=0.3 seed=1 ring: speed=1.08e-04 spin=-0.0000 k=8
+[E1] 75/180 done (68s): axis V=-D eps=0.3 seed=2 random: speed=1.46e-04 spin=-0.0001 k=8
+[E1] 76/180 done (68s): axis V=-D eps=0.3 seed=2 ring: speed=1.46e-04 spin=-0.0001 k=7
+[E1] 77/180 done (69s): axis V=-D eps=0.3 seed=3 random: speed=1.56e-04 spin=-0.0001 k=7
+[E1] 78/180 done (70s): axis V=-D eps=0.3 seed=3 ring: speed=2.09e-04 spin=-0.0001 k=7
+[E1] 79/180 done (71s): axis V=-D eps=0.3 seed=4 random: speed=3.87e-05 spin=-0.0000 k=7
+[E1] 80/180 done (72s): axis V=-D eps=0.3 seed=4 ring: speed=1.76e-04 spin=-0.0000 k=7
+[E1] 81/180 done (73s): axis V=-D eps=0.6 seed=0 random: speed=2.79e-05 spin=-0.0000 k=6
+[E1] 82/180 done (73s): axis V=-D eps=0.6 seed=0 ring: speed=8.74e-05 spin=-0.0001 k=7
+[E1] 83/180 done (75s): axis V=-D eps=0.6 seed=1 random: speed=3.02e-05 spin=-0.0000 k=6
+[E1] 84/180 done (75s): axis V=-D eps=0.6 seed=1 ring: speed=3.66e-05 spin=-0.0000 k=6
+[E1] 85/180 done (76s): axis V=-D eps=0.6 seed=2 random: speed=8.54e-05 spin=-0.0001 k=7
+[E1] 86/180 done (77s): axis V=-D eps=0.6 seed=2 ring: speed=3.30e-05 spin=-0.0000 k=6
+[E1] 87/180 done (78s): axis V=-D eps=0.6 seed=3 random: speed=8.67e-05 spin=-0.0001 k=8
+[E1] 88/180 done (78s): axis V=-D eps=0.6 seed=3 ring: speed=4.40e-05 spin=-0.0000 k=4
+[E1] 89/180 done (80s): axis V=-D eps=0.6 seed=4 random: speed=4.45e-05 spin=-0.0000 k=4
+[E1] 90/180 done (80s): axis V=-D eps=0.6 seed=4 ring: speed=3.59e-05 spin=-0.0000 k=5
+[E1] 91/180 done (81s): axis V=+D eps=0.1 seed=0 random: speed=9.58e-115 spin=+0.0000 k=2
+[E1] 92/180 done (82s): axis V=+D eps=0.1 seed=0 ring: speed=9.11e-154 spin=+0.0000 k=1
+[E1] 93/180 done (83s): axis V=+D eps=0.1 seed=1 ring: speed=1.48e-154 spin=+0.0000 k=1
+[E1] 94/180 done (83s): axis V=+D eps=0.1 seed=1 random: speed=4.02e-155 spin=+0.0000 k=1
+[E1] 95/180 done (85s): axis V=+D eps=0.1 seed=2 ring: speed=3.73e-154 spin=+0.0000 k=1
+[E1] 96/180 done (85s): axis V=+D eps=0.1 seed=2 random: speed=2.76e-95 spin=+0.0000 k=2
+[E1] 97/180 done (86s): axis V=+D eps=0.1 seed=3 ring: speed=2.07e-153 spin=+0.0000 k=1
+[E1] 98/180 done (86s): axis V=+D eps=0.1 seed=3 random: speed=1.17e-100 spin=+0.0000 k=2
+[E1] 99/180 done (88s): axis V=+D eps=0.1 seed=4 ring: speed=1.16e-153 spin=+0.0000 k=1
+[E1] 100/180 done (88s): axis V=+D eps=0.1 seed=4 random: speed=1.08e-96 spin=+0.0000 k=2
+[E1] 101/180 done (90s): axis V=+D eps=0.3 seed=0 ring: speed=1.40e-153 spin=+0.0000 k=1
+[E1] 102/180 done (90s): axis V=+D eps=0.3 seed=0 random: speed=1.22e-113 spin=+0.0000 k=2
+[E1] 103/180 done (91s): axis V=+D eps=0.3 seed=1 ring: speed=2.11e-154 spin=+0.0000 k=1
+[E1] 104/180 done (92s): axis V=+D eps=0.3 seed=1 random: speed=1.69e-155 spin=+0.0000 k=1
+[E1] 105/180 done (93s): axis V=+D eps=0.3 seed=2 ring: speed=5.52e-154 spin=+0.0000 k=1
+[E1] 106/180 done (93s): axis V=+D eps=0.3 seed=2 random: speed=3.51e-89 spin=+0.0000 k=2
+[E1] 107/180 done (95s): axis V=+D eps=0.3 seed=3 ring: speed=3.29e-153 spin=+0.0000 k=1
+[E1] 108/180 done (95s): axis V=+D eps=0.3 seed=3 random: speed=1.33e-99 spin=+0.0000 k=2
+[E1] 109/180 done (96s): axis V=+D eps=0.3 seed=4 ring: speed=1.79e-153 spin=+0.0000 k=1
+[E1] 110/180 done (96s): axis V=+D eps=0.3 seed=4 random: speed=1.39e-96 spin=+0.0000 k=2
+[E1] 111/180 done (98s): axis V=+D eps=0.6 seed=0 ring: speed=7.28e-153 spin=+0.0000 k=1
+[E1] 112/180 done (98s): axis V=+D eps=0.6 seed=0 random: speed=1.40e-106 spin=+0.0000 k=2
+[E1] 113/180 done (99s): axis V=+D eps=0.6 seed=1 random: speed=2.94e-155 spin=+0.0000 k=1
+[E1] 114/180 done (100s): axis V=+D eps=0.6 seed=1 ring: speed=8.29e-154 spin=+0.0000 k=1
+[E1] 115/180 done (101s): axis V=+D eps=0.6 seed=2 random: speed=2.46e-52 spin=+0.0000 k=2
+[E1] 116/180 done (101s): axis V=+D eps=0.6 seed=2 ring: speed=2.50e-153 spin=+0.0000 k=1
+[E1] 117/180 done (103s): axis V=+D eps=0.6 seed=3 random: speed=5.42e-93 spin=+0.0000 k=2
+[E1] 118/180 done (103s): axis V=+D eps=0.6 seed=3 ring: speed=1.95e-152 spin=+0.0000 k=1
+[E1] 119/180 done (104s): axis V=+D eps=0.6 seed=4 ring: speed=9.69e-153 spin=+0.0000 k=1
+[E1] 120/180 done (104s): axis V=+D eps=0.6 seed=4 random: speed=6.67e-92 spin=+0.0000 k=2
+[E1] 121/180 done (106s): iso V=-Id eps=0.1 seed=0 random: speed=2.46e-02 spin=+0.0313 k=168
+[E1] 122/180 done (106s): iso V=-Id eps=0.1 seed=1 random: speed=2.46e-02 spin=+0.0313 k=170
+[E1] 123/180 done (108s): iso V=-Id eps=0.1 seed=2 random: speed=2.45e-02 spin=+0.0313 k=167
+[E1] 124/180 done (108s): iso V=-Id eps=0.1 seed=3 random: speed=2.46e-02 spin=+0.0313 k=166
+[E1] 125/180 done (109s): iso V=-Id eps=0.1 seed=4 random: speed=2.46e-02 spin=+0.0313 k=165
+[E1] 126/180 done (109s): iso V=-Id eps=0.3 seed=0 random: speed=7.35e-02 spin=+0.0936 k=166
+[E1] 127/180 done (111s): iso V=-Id eps=0.3 seed=1 random: speed=7.36e-02 spin=+0.0936 k=169
+[E1] 128/180 done (111s): iso V=-Id eps=0.3 seed=2 random: speed=7.34e-02 spin=+0.0936 k=165
+[E1] 129/180 done (113s): iso V=-Id eps=0.3 seed=3 random: speed=7.36e-02 spin=+0.0936 k=164
+[E1] 130/180 done (113s): iso V=-Id eps=0.3 seed=4 random: speed=7.36e-02 spin=+0.0936 k=162
+[E1] 131/180 done (114s): iso V=-Id eps=0.6 seed=1 random: speed=1.45e-01 spin=+0.1851 k=160
+[E1] 132/180 done (114s): iso V=-Id eps=0.6 seed=0 random: speed=1.45e-01 spin=+0.1853 k=171
+[E1] 133/180 done (116s): iso V=-Id eps=0.6 seed=3 random: speed=1.45e-01 spin=+0.1843 k=157
+[E1] 134/180 done (116s): iso V=-Id eps=0.6 seed=2 random: speed=1.45e-01 spin=+0.1853 k=159
+[E1] 135/180 done (118s): iso V=-Id eps=0.6 seed=4 random: speed=1.45e-01 spin=+0.1848 k=148
+[E1] 136/180 done (118s): iso V=+Id eps=0.1 seed=0 random: speed=8.74e-16 spin=-0.0000 k=1
+[E1] 137/180 done (119s): iso V=+Id eps=0.1 seed=1 random: speed=3.97e-16 spin=+0.0000 k=1
+[E1] 138/180 done (119s): iso V=+Id eps=0.1 seed=2 random: speed=8.38e-16 spin=-0.0000 k=1
+[E1] 139/180 done (121s): iso V=+Id eps=0.1 seed=3 random: speed=7.33e-16 spin=-0.0000 k=1
+[E1] 140/180 done (121s): iso V=+Id eps=0.1 seed=4 random: speed=1.18e-15 spin=-0.0000 k=1
+[E1] 141/180 done (123s): iso V=+Id eps=0.3 seed=1 random: speed=4.75e-16 spin=-0.0000 k=1
+[E1] 142/180 done (123s): iso V=+Id eps=0.3 seed=0 random: speed=1.06e-15 spin=+0.0000 k=1
+[E1] 143/180 done (124s): iso V=+Id eps=0.3 seed=2 random: speed=6.70e-16 spin=+0.0000 k=1
+[E1] 144/180 done (124s): iso V=+Id eps=0.3 seed=3 random: speed=1.20e-15 spin=-0.0000 k=1
+[E1] 145/180 done (126s): iso V=+Id eps=0.3 seed=4 random: speed=1.48e-15 spin=-0.0000 k=1
+[E1] 146/180 done (126s): iso V=+Id eps=0.6 seed=0 random: speed=7.66e-16 spin=+0.0000 k=1
+[E1] 147/180 done (128s): iso V=+Id eps=0.6 seed=1 random: speed=5.24e-16 spin=+0.0000 k=1
+[E1] 148/180 done (128s): iso V=+Id eps=0.6 seed=2 random: speed=7.46e-16 spin=-0.0000 k=1
+[E1] 149/180 done (129s): iso V=+Id eps=0.6 seed=4 random: speed=1.34e-15 spin=+0.0000 k=1
+[E1] 150/180 done (129s): iso V=+Id eps=0.6 seed=3 random: speed=1.01e-15 spin=+0.0000 k=1
+[E1] 151/180 done (131s): iso V=-D eps=0.1 seed=0 random: speed=3.71e-05 spin=-0.0000 k=168
+[E1] 152/180 done (131s): iso V=-D eps=0.1 seed=1 random: speed=4.68e-05 spin=-0.0000 k=170
+[E1] 153/180 done (133s): iso V=-D eps=0.1 seed=2 random: speed=3.04e-05 spin=+0.0000 k=167
+[E1] 154/180 done (133s): iso V=-D eps=0.1 seed=3 random: speed=3.03e-05 spin=-0.0000 k=166
+[E1] 155/180 done (134s): iso V=-D eps=0.1 seed=4 random: speed=4.95e-05 spin=-0.0000 k=166
+[E1] 156/180 done (134s): iso V=-D eps=0.3 seed=0 random: speed=6.31e-05 spin=-0.0000 k=166
+[E1] 157/180 done (136s): iso V=-D eps=0.3 seed=1 random: speed=9.15e-05 spin=-0.0000 k=169
+[E1] 158/180 done (136s): iso V=-D eps=0.3 seed=2 random: speed=4.57e-05 spin=+0.0000 k=166
+[E1] 159/180 done (138s): iso V=-D eps=0.3 seed=3 random: speed=6.30e-05 spin=-0.0000 k=165
+[E1] 160/180 done (138s): iso V=-D eps=0.3 seed=4 random: speed=1.05e-04 spin=-0.0000 k=163
+[E1] 161/180 done (139s): iso V=-D eps=0.6 seed=0 random: speed=5.98e-03 spin=-0.0056 k=107
+[E1] 162/180 done (139s): iso V=-D eps=0.6 seed=1 random: speed=5.68e-03 spin=-0.0053 k=102
+[E1] 163/180 done (141s): iso V=-D eps=0.6 seed=2 random: speed=7.00e-03 spin=-0.0061 k=111
+[E1] 164/180 done (141s): iso V=-D eps=0.6 seed=3 random: speed=6.02e-03 spin=-0.0057 k=102
+[E1] 165/180 done (142s): iso V=+D eps=0.1 seed=0 random: speed=9.30e-02 spin=+0.1000 k=1
+[E1] 166/180 done (143s): iso V=-D eps=0.6 seed=4 random: speed=5.86e-03 spin=-0.0055 k=99
+[E1] 167/180 done (144s): iso V=+D eps=0.1 seed=1 random: speed=2.94e-02 spin=+0.1000 k=1
+[E1] 168/180 done (144s): iso V=+D eps=0.1 seed=2 random: speed=5.29e-02 spin=+0.1000 k=1
+[E1] 169/180 done (145s): iso V=+D eps=0.1 seed=3 random: speed=9.50e-02 spin=+0.1000 k=1
+[E1] 170/180 done (146s): iso V=+D eps=0.1 seed=4 random: speed=8.77e-02 spin=+0.1000 k=1
+[E1] 171/180 done (147s): iso V=+D eps=0.3 seed=0 random: speed=2.89e-01 spin=+0.3000 k=1
+[E1] 172/180 done (147s): iso V=+D eps=0.3 seed=1 random: speed=1.60e-01 spin=+0.3000 k=1
+[E1] 173/180 done (148s): iso V=+D eps=0.3 seed=2 random: speed=2.36e-01 spin=+0.3000 k=1
+[E1] 174/180 done (149s): iso V=+D eps=0.3 seed=3 random: speed=2.96e-01 spin=+0.3000 k=1
+[E1] 175/180 done (150s): iso V=+D eps=0.3 seed=4 random: speed=2.91e-01 spin=+0.3000 k=1
+[E1] 176/180 done (150s): iso V=+D eps=0.6 seed=0 random: speed=6.00e-01 spin=+0.6000 k=1
+[E1] 177/180 done (151s): iso V=+D eps=0.6 seed=1 random: speed=5.96e-01 spin=+0.6000 k=1
+[E1] 178/180 done (152s): iso V=+D eps=0.6 seed=2 random: speed=5.99e-01 spin=+0.6000 k=1
+[E1] 179/180 done (153s): iso V=+D eps=0.6 seed=3 random: speed=6.00e-01 spin=+0.6000 k=1
+[E1] 180/180 done (153s): iso V=+D eps=0.6 seed=4 random: speed=6.00e-01 spin=+0.6000 k=1
+
+SUMMARY (median over seeds; speed/spin averaged over the last 50 time units)
+D_s   V     eps start  |     speed      spin  eps/2 |     R1     R3    zrms    k
+--------------------------------------------------------------------------------
+axis  +D    0.1 random | 1.17e-100   +0.0000  0.050 |  0.647  0.611 1.0e+00    2
+axis  +D    0.1 ring   | 9.11e-154   +0.0000  0.050 |  0.000  0.000 1.0e+00    1
+axis  +D    0.3 random |  1.33e-99   +0.0000  0.150 |  0.591  0.648 1.0e+00    2
+axis  +D    0.3 ring   | 1.40e-153   +0.0000  0.150 |  0.000  0.000 1.0e+00    1
+axis  +D    0.6 random |  5.42e-93   +0.0000  0.300 |  0.768  0.699 1.0e+00    2
+axis  +D    0.6 ring   | 7.28e-153   +0.0000  0.300 |  0.001  0.000 1.0e+00    1
+axis  +Id   0.1 random |  1.08e-15   +0.0000  0.050 |  1.000  1.000 6.3e-01    1
+axis  +Id   0.1 ring   |  1.71e-16   -0.0000  0.050 |  1.000  1.000 1.0e+00    1
+axis  +Id   0.3 random |  1.25e-15   -0.0000  0.150 |  1.000  1.000 6.4e-01    1
+axis  +Id   0.3 ring   |  1.12e-16   +0.0000  0.150 |  1.000  1.000 1.0e+00    1
+axis  +Id   0.6 random |  7.83e-16   -0.0000  0.300 |  1.000  1.000 6.4e-01    1
+axis  +Id   0.6 ring   |  1.67e-16   -0.0000  0.300 |  1.000  1.000 1.0e+00    1
+axis  -D    0.1 random |  3.01e-03   -0.0003  0.050 |  0.041  0.051 6.8e-02   62
+axis  -D    0.1 ring   |  3.92e-05   -0.0000  0.050 |  0.000  0.000 7.2e-03   50
+axis  -D    0.3 random |  1.46e-04   -0.0001  0.150 |  0.023  0.064 8.4e-02    7
+axis  -D    0.3 ring   |  1.76e-04   -0.0000  0.150 |  0.007  0.021 8.5e-02    7
+axis  -D    0.6 random |  4.45e-05   -0.0000  0.300 |  0.001  0.004 5.1e-02    6
+axis  -D    0.6 ring   |  3.66e-05   -0.0000  0.300 |  0.000  0.001 4.6e-02    6
+axis  -Id   0.1 random |  4.98e-02   +0.0498  0.050 |  0.000  0.095 3.7e-02   50
+axis  -Id   0.1 ring   |  4.99e-02   +0.0499  0.050 |  0.000  0.001 9.6e-04   50
+axis  -Id   0.3 random |  1.48e-01   +0.1480  0.150 |  0.005  0.997 2.2e-02    6
+axis  -Id   0.3 ring   |  1.48e-01   +0.1483  0.150 |  0.000  0.176 4.7e-03   52
+axis  -Id   0.6 random |  2.87e-01   +0.2870  0.300 |  0.009  0.999 4.9e-03    3
+axis  -Id   0.6 ring   |  2.87e-01   +0.2872  0.300 |  0.003  1.000 1.6e-04    3
+iso   +D    0.1 random |  8.77e-02   +0.1000  0.050 |  1.000  1.000 4.8e-01    1
+iso   +D    0.3 random |  2.89e-01   +0.3000  0.150 |  1.000  1.000 2.5e-01    1
+iso   +D    0.6 random |  6.00e-01   +0.6000  0.300 |  1.000  1.000 1.9e-02    1
+iso   +Id   0.1 random |  8.38e-16   -0.0000  0.050 |  1.000  1.000 5.2e-01    1
+iso   +Id   0.3 random |  1.06e-15   -0.0000  0.150 |  1.000  1.000 5.4e-01    1
+iso   +Id   0.6 random |  7.66e-16   +0.0000  0.300 |  1.000  1.000 5.7e-01    1
+iso   -D    0.1 random |  3.71e-05   -0.0000  0.050 |  0.005  0.018 5.8e-01  167
+iso   -D    0.3 random |  6.31e-05   -0.0000  0.150 |  0.005  0.015 5.9e-01  166
+iso   -D    0.6 random |  5.98e-03   -0.0056  0.300 |  0.005  0.022 6.4e-01  102
+iso   -Id   0.1 random |  2.46e-02   +0.0313  0.050 |  0.005  0.019 5.8e-01  167
+iso   -Id   0.3 random |  7.36e-02   +0.0936  0.150 |  0.004  0.015 5.8e-01  165
+iso   -Id   0.6 random |  1.45e-01   +0.1851  0.300 |  0.005  0.023 5.8e-01  159
+
+saved results/review/E1_value_matrices.json

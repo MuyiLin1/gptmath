@@ -1,0 +1,48 @@
+[E4] growth 1/6 (2s): {'kind': 'oop', 'scheme': 'euler', 'dt': 0.05, 'rate': 0.010526115557865657}
+[E4] growth 2/6 (4s): {'kind': 'oop', 'scheme': 'euler', 'dt': 0.025, 'rate': 0.01080267080968953}
+[E4] growth 3/6 (5s): {'kind': 'inp', 'scheme': 'euler', 'dt': 0.05, 'rate': 0.01640269690777869}
+[E4] growth 4/6 (7s): {'kind': 'inp', 'scheme': 'euler', 'dt': 0.025, 'rate': 0.016406736135929287}
+[E4] growth 5/6 (9s): {'kind': 'oop', 'scheme': 'rk4', 'dt': 0.05, 'rate': 0.011079253852300307}
+[E4] growth 6/6 (12s): {'kind': 'inp', 'scheme': 'rk4', 'dt': 0.05, 'rate': 0.016410326500915964}
+[E4] coarsening 1/30 (12s): {'seed': 0, 'scheme': 'euler', 'dt': 0.05, 't_tri': 250.0}
+[E4] coarsening 2/30 (12s): {'seed': 0, 'scheme': 'euler', 'dt': 0.025, 't_tri': 280.0}
+[E4] coarsening 3/30 (12s): {'seed': 1, 'scheme': 'euler', 'dt': 0.05, 't_tri': 150.0}
+[E4] coarsening 4/30 (13s): {'seed': 1, 'scheme': 'euler', 'dt': 0.025, 't_tri': 150.0}
+[E4] coarsening 5/30 (13s): {'seed': 0, 'scheme': 'rk4', 'dt': 0.05, 't_tri': 310.0}
+[E4] coarsening 6/30 (13s): {'seed': 2, 'scheme': 'euler', 'dt': 0.05, 't_tri': 130.0}
+[E4] coarsening 7/30 (13s): {'seed': 1, 'scheme': 'rk4', 'dt': 0.05, 't_tri': 150.0}
+[E4] coarsening 8/30 (13s): {'seed': 2, 'scheme': 'euler', 'dt': 0.025, 't_tri': 130.0}
+[E4] coarsening 9/30 (13s): {'seed': 3, 'scheme': 'euler', 'dt': 0.05, 't_tri': 370.0}
+[E4] coarsening 10/30 (13s): {'seed': 2, 'scheme': 'rk4', 'dt': 0.05, 't_tri': 140.0}
+[E4] coarsening 11/30 (14s): {'seed': 3, 'scheme': 'euler', 'dt': 0.025, 't_tri': 410.0}
+[E4] coarsening 12/30 (14s): {'seed': 4, 'scheme': 'euler', 'dt': 0.05, 't_tri': 180.0}
+[E4] coarsening 13/30 (14s): {'seed': 4, 'scheme': 'euler', 'dt': 0.025, 't_tri': 190.0}
+[E4] coarsening 14/30 (15s): {'seed': 3, 'scheme': 'rk4', 'dt': 0.05, 't_tri': 490.0}
+[E4] coarsening 15/30 (15s): {'seed': 4, 'scheme': 'rk4', 'dt': 0.05, 't_tri': 190.0}
+[E4] coarsening 16/30 (15s): {'seed': 5, 'scheme': 'euler', 'dt': 0.05, 't_tri': 130.0}
+[E4] coarsening 17/30 (15s): {'seed': 5, 'scheme': 'euler', 'dt': 0.025, 't_tri': 140.0}
+[E4] coarsening 18/30 (15s): {'seed': 5, 'scheme': 'rk4', 'dt': 0.05, 't_tri': 140.0}
+[E4] coarsening 19/30 (15s): {'seed': 6, 'scheme': 'euler', 'dt': 0.05, 't_tri': 330.0}
+[E4] coarsening 20/30 (16s): {'seed': 6, 'scheme': 'euler', 'dt': 0.025, 't_tri': 360.0}
+[E4] coarsening 21/30 (16s): {'seed': 7, 'scheme': 'euler', 'dt': 0.05, 't_tri': 240.0}
+[E4] coarsening 22/30 (16s): {'seed': 7, 'scheme': 'euler', 'dt': 0.025, 't_tri': 260.0}
+[E4] coarsening 23/30 (17s): {'seed': 6, 'scheme': 'rk4', 'dt': 0.05, 't_tri': 390.0}
+[E4] coarsening 24/30 (17s): {'seed': 8, 'scheme': 'euler', 'dt': 0.05, 't_tri': 360.0}
+[E4] coarsening 25/30 (17s): {'seed': 7, 'scheme': 'rk4', 'dt': 0.05, 't_tri': 280.0}
+[E4] coarsening 26/30 (17s): {'seed': 8, 'scheme': 'euler', 'dt': 0.025, 't_tri': 390.0}
+[E4] coarsening 27/30 (18s): {'seed': 9, 'scheme': 'euler', 'dt': 0.05, 't_tri': 260.0}
+[E4] coarsening 28/30 (18s): {'seed': 9, 'scheme': 'euler', 'dt': 0.025, 't_tri': 270.0}
+[E4] coarsening 29/30 (18s): {'seed': 8, 'scheme': 'rk4', 'dt': 0.05, 't_tri': 430.0}
+[E4] coarsening 30/30 (19s): {'seed': 9, 'scheme': 'rk4', 'dt': 0.05, 't_tri': 280.0}
+
+(a) growth rates at eps = 0.3 (predicted lambda_2 = 1.10838e-02, mu_3 = 1.64106e-02)
+  euler dt=0.05 : lambda_2 1.05261e-02 (-5.03%)   mu_3 1.64027e-02 (-0.05%)
+  euler dt=0.025: lambda_2 1.08027e-02 (-2.54%)   mu_3 1.64067e-02 (-0.02%)
+  rk4   dt=0.05 : lambda_2 1.10793e-02 (-0.04%)   mu_3 1.64103e-02 (-0.00%)
+
+(b) time to reach the rotating triangle (eps = 0.6, N = 60)
+  euler dt=0.05 : reached in 10/10 runs; median t = 245; per seed: [130.0, 130.0, 150.0, 180.0, 240.0, 250.0, 260.0, 330.0, 360.0, 370.0]
+  euler dt=0.025: reached in 10/10 runs; median t = 265; per seed: [130.0, 140.0, 150.0, 190.0, 260.0, 270.0, 280.0, 360.0, 390.0, 410.0]
+  rk4   dt=0.05 : reached in 10/10 runs; median t = 280; per seed: [140.0, 140.0, 150.0, 190.0, 280.0, 280.0, 310.0, 390.0, 430.0, 490.0]
+
+saved results/review/E4_integrator.json

@@ -1,0 +1,99 @@
+[E3b] 1/80 (78s) N=60 eps=0.1 seed=0 noisy=1: t_first=4650.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=2.0e-07
+[E3b] 2/80 (78s) N=60 eps=0.1 seed=0 noisy=0: t_first=4650.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=1.5e-08
+[E3b] 3/80 (156s) N=60 eps=0.1 seed=1 noisy=0: t_first=2650.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=1.5e-08
+[E3b] 4/80 (156s) N=60 eps=0.1 seed=1 noisy=1: t_first=2650.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=1.8e-07
+[E3b] 5/80 (234s) N=60 eps=0.1 seed=2 noisy=1: t_first=3250.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=1.6e-07
+[E3b] 6/80 (234s) N=60 eps=0.1 seed=2 noisy=0: t_first=3250.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=0.0e+00
+[E3b] 7/80 (312s) N=60 eps=0.1 seed=3 noisy=1: t_first=4600.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=1.6e-07
+[E3b] 8/80 (313s) N=60 eps=0.1 seed=3 noisy=0: t_first=4600.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=1.5e-08
+[E3b] 9/80 (390s) N=60 eps=0.1 seed=4 noisy=1: t_first=3850.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=1.4e-07
+[E3b] 10/80 (390s) N=60 eps=0.1 seed=4 noisy=0: t_first=3850.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=0.0e+00
+[E3b] 11/80 (470s) N=61 eps=0.1 seed=0 noisy=1: t_first=12950.0 breakups=9 3-dominant(late)=0.88 tight(late)=0.09 final=[20, 20, 18, 2, 1] rad=4.3e-03
+[E3b] 12/80 (471s) N=61 eps=0.1 seed=0 noisy=0: t_first=15150.0 breakups=1 3-dominant(late)=1.00 tight(late)=1.00 final=[22, 20, 19] rad=0.0e+00
+[E3b] 13/80 (569s) N=61 eps=0.1 seed=1 noisy=1: t_first=4900.0 breakups=5 3-dominant(late)=0.87 tight(late)=0.16 final=[22, 19, 18, 1, 1] rad=8.2e-02
+[E3b] 14/80 (570s) N=61 eps=0.1 seed=1 noisy=0: t_first=4900.0 breakups=4 3-dominant(late)=1.00 tight(late)=1.00 final=[27, 18, 16] rad=0.0e+00
+[E3b] 15/80 (678s) N=61 eps=0.1 seed=2 noisy=1: t_first=11450.0 breakups=7 3-dominant(late)=0.84 tight(late)=0.07 final=[21, 20, 18, 1, 1] rad=2.6e-03
+[E3b] 16/80 (680s) N=61 eps=0.1 seed=2 noisy=0: t_first=7400.0 breakups=2 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=0.0e+00
+[E3b] 17/80 (788s) N=61 eps=0.1 seed=3 noisy=0: t_first=10950.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[23, 20, 18] rad=1.5e-08
+[E3b] 18/80 (788s) N=61 eps=0.1 seed=3 noisy=1: t_first=19150.0 breakups=6 3-dominant(late)=0.91 tight(late)=0.07 final=[21, 20, 20] rad=3.0e-03
+[E3b] 19/80 (894s) N=61 eps=0.1 seed=4 noisy=0: t_first=6200.0 breakups=3 3-dominant(late)=1.00 tight(late)=1.00 final=[22, 20, 19] rad=0.0e+00
+[E3b] 20/80 (895s) N=61 eps=0.1 seed=4 noisy=1: t_first=16500.0 breakups=7 3-dominant(late)=0.88 tight(late)=0.07 final=[20, 19, 19, 1, 1, 1] rad=6.7e-02
+[E3b] 21/80 (906s) N=60 eps=0.3 seed=0 noisy=0: t_first=450.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=0.0e+00
+[E3b] 22/80 (906s) N=60 eps=0.3 seed=0 noisy=1: t_first=450.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=6.3e-08
+[E3b] 23/80 (917s) N=60 eps=0.3 seed=1 noisy=0: t_first=450.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=1.5e-08
+[E3b] 24/80 (917s) N=60 eps=0.3 seed=1 noisy=1: t_first=450.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=4.9e-08
+[E3b] 25/80 (928s) N=60 eps=0.3 seed=2 noisy=0: t_first=500.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=0.0e+00
+[E3b] 26/80 (928s) N=60 eps=0.3 seed=2 noisy=1: t_first=500.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=4.9e-08
+[E3b] 27/80 (939s) N=60 eps=0.3 seed=3 noisy=0: t_first=750.0 breakups=2 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 19] rad=0.0e+00
+[E3b] 28/80 (940s) N=60 eps=0.3 seed=3 noisy=1: t_first=750.0 breakups=4 3-dominant(late)=0.82 tight(late)=0.43 final=[21, 20, 19] rad=4.1e-03
+[E3b] 29/80 (950s) N=60 eps=0.3 seed=4 noisy=0: t_first=500.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=0.0e+00
+[E3b] 30/80 (951s) N=60 eps=0.3 seed=4 noisy=1: t_first=500.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=6.0e-08
+[E3b] 31/80 (961s) N=61 eps=0.3 seed=0 noisy=0: t_first=700.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=2.1e-08
+[E3b] 32/80 (962s) N=61 eps=0.3 seed=0 noisy=1: t_first=700.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=1.0e-07
+[E3b] 33/80 (972s) N=61 eps=0.3 seed=1 noisy=0: t_first=850.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=1.5e-08
+[E3b] 34/80 (973s) N=61 eps=0.3 seed=1 noisy=1: t_first=850.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=6.8e-08
+[E3b] 35/80 (983s) N=61 eps=0.3 seed=2 noisy=0: t_first=850.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=1.5e-08
+[E3b] 36/80 (984s) N=61 eps=0.3 seed=2 noisy=1: t_first=850.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=7.0e-08
+[E3b] 37/80 (995s) N=61 eps=0.3 seed=3 noisy=0: t_first=650.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=2.1e-08
+[E3b] 38/80 (996s) N=61 eps=0.3 seed=3 noisy=1: t_first=650.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=9.1e-08
+[E3b] 39/80 (1006s) N=61 eps=0.3 seed=4 noisy=0: t_first=650.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=1.5e-08
+[E3b] 40/80 (1007s) N=61 eps=0.3 seed=4 noisy=1: t_first=650.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=9.5e-08
+[E3b] 41/80 (1016s) N=60 eps=0.6 seed=0 noisy=0: t_first=250.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 19] rad=0.0e+00
+[E3b] 42/80 (1017s) N=60 eps=0.6 seed=0 noisy=1: t_first=250.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 19] rad=4.9e-08
+[E3b] 43/80 (1025s) N=60 eps=0.6 seed=1 noisy=0: t_first=150.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=1.5e-08
+[E3b] 44/80 (1026s) N=60 eps=0.6 seed=1 noisy=1: t_first=150.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=4.2e-08
+[E3b] 45/80 (1035s) N=60 eps=0.6 seed=2 noisy=0: t_first=150.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=1.5e-08
+[E3b] 46/80 (1036s) N=60 eps=0.6 seed=2 noisy=1: t_first=150.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=3.7e-08
+[E3b] 47/80 (1045s) N=60 eps=0.6 seed=3 noisy=0: t_first=400.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[22, 19, 19] rad=0.0e+00
+[E3b] 48/80 (1046s) N=60 eps=0.6 seed=3 noisy=1: t_first=400.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[22, 19, 19] rad=7.3e-08
+[E3b] 49/80 (1055s) N=60 eps=0.6 seed=4 noisy=0: t_first=200.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 19] rad=0.0e+00
+[E3b] 50/80 (1056s) N=60 eps=0.6 seed=4 noisy=1: t_first=200.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 19] rad=3.7e-08
+[E3b] 51/80 (1065s) N=61 eps=0.6 seed=0 noisy=0: t_first=1250.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 21, 19] rad=3.0e-06
+[E3b] 52/80 (1066s) N=61 eps=0.6 seed=0 noisy=1: t_first=1250.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 21, 19] rad=3.0e-06
+[E3b] 53/80 (1075s) N=61 eps=0.6 seed=1 noisy=0: t_first=2100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 21, 19] rad=9.2e-06
+[E3b] 54/80 (1076s) N=61 eps=0.6 seed=1 noisy=1: t_first=2100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 21, 19] rad=9.1e-06
+[E3b] 55/80 (1085s) N=61 eps=0.6 seed=2 noisy=0: t_first=150.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=1.5e-08
+[E3b] 56/80 (1086s) N=61 eps=0.6 seed=2 noisy=1: t_first=150.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=3.3e-08
+[E3b] 57/80 (1095s) N=61 eps=0.6 seed=3 noisy=0: t_first=200.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=0.0e+00
+[E3b] 58/80 (1096s) N=61 eps=0.6 seed=3 noisy=1: t_first=200.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=3.7e-08
+[E3b] 59/80 (1105s) N=61 eps=0.6 seed=4 noisy=0: t_first=150.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=1.5e-08
+[E3b] 60/80 (1105s) N=61 eps=0.6 seed=4 noisy=1: t_first=150.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=3.3e-08
+[E3b] 61/80 (1115s) N=60 eps=1.0 seed=0 noisy=1: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 19] rad=3.3e-08
+[E3b] 62/80 (1115s) N=60 eps=1.0 seed=0 noisy=0: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 19] rad=0.0e+00
+[E3b] 63/80 (1125s) N=60 eps=1.0 seed=1 noisy=1: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 19] rad=4.5e-08
+[E3b] 64/80 (1125s) N=60 eps=1.0 seed=1 noisy=0: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 19] rad=0.0e+00
+[E3b] 65/80 (1134s) N=60 eps=1.0 seed=2 noisy=1: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 19] rad=3.0e-08
+[E3b] 66/80 (1134s) N=60 eps=1.0 seed=2 noisy=0: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 19] rad=1.5e-08
+[E3b] 67/80 (1144s) N=60 eps=1.0 seed=3 noisy=1: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 19] rad=3.9e-08
+[E3b] 68/80 (1144s) N=60 eps=1.0 seed=3 noisy=0: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 19] rad=0.0e+00
+[E3b] 69/80 (1154s) N=60 eps=1.0 seed=4 noisy=0: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=0.0e+00
+[E3b] 70/80 (1154s) N=60 eps=1.0 seed=4 noisy=1: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[20, 20, 20] rad=2.6e-08
+[E3b] 71/80 (1164s) N=61 eps=1.0 seed=0 noisy=0: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[22, 20, 19] rad=1.5e-08
+[E3b] 72/80 (1164s) N=61 eps=1.0 seed=0 noisy=1: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[22, 20, 19] rad=3.7e-08
+[E3b] 73/80 (1174s) N=61 eps=1.0 seed=1 noisy=0: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 21, 19] rad=1.5e-08
+[E3b] 74/80 (1174s) N=61 eps=1.0 seed=1 noisy=1: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 21, 19] rad=3.0e-08
+[E3b] 75/80 (1184s) N=61 eps=1.0 seed=2 noisy=0: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=1.5e-08
+[E3b] 76/80 (1184s) N=61 eps=1.0 seed=2 noisy=1: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=3.0e-08
+[E3b] 77/80 (1194s) N=61 eps=1.0 seed=3 noisy=0: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=0.0e+00
+[E3b] 78/80 (1194s) N=61 eps=1.0 seed=3 noisy=1: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=3.3e-08
+[E3b] 79/80 (1204s) N=61 eps=1.0 seed=4 noisy=0: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=0.0e+00
+[E3b] 80/80 (1204s) N=61 eps=1.0 seed=4 noisy=1: t_first=100.0 breakups=0 3-dominant(late)=1.00 tight(late)=1.00 final=[21, 20, 20] rad=3.0e-08
+
+SUMMARY
+eps=0.1 N=60 noisy=0: 3-dominant late 1.00, tight late 1.00, breakups [0, 0, 0, 0, 0], final [(20, 20, 20), (20, 20, 20), (20, 20, 20), (20, 20, 20), (20, 20, 20)]
+eps=0.1 N=60 noisy=1: 3-dominant late 1.00, tight late 1.00, breakups [0, 0, 0, 0, 0], final [(20, 20, 20), (20, 20, 20), (20, 20, 20), (20, 20, 20), (20, 20, 20)]
+eps=0.1 N=61 noisy=0: 3-dominant late 1.00, tight late 1.00, breakups [1, 4, 2, 0, 3], final [(22, 20, 19), (27, 18, 16), (21, 20, 20), (23, 20, 18), (22, 20, 19)]
+eps=0.1 N=61 noisy=1: 3-dominant late 0.88, tight late 0.09, breakups [9, 5, 7, 6, 7], final [(20, 20, 18), (22, 19, 18), (21, 20, 18), (21, 20, 20), (20, 19, 19)]
+eps=0.3 N=60 noisy=0: 3-dominant late 1.00, tight late 1.00, breakups [0, 0, 0, 2, 0], final [(20, 20, 20), (20, 20, 20), (20, 20, 20), (21, 20, 19), (20, 20, 20)]
+eps=0.3 N=60 noisy=1: 3-dominant late 0.96, tight late 0.89, breakups [0, 0, 0, 4, 0], final [(20, 20, 20), (20, 20, 20), (20, 20, 20), (21, 20, 19), (20, 20, 20)]
+eps=0.3 N=61 noisy=0: 3-dominant late 1.00, tight late 1.00, breakups [0, 0, 0, 0, 0], final [(21, 20, 20), (21, 20, 20), (21, 20, 20), (21, 20, 20), (21, 20, 20)]
+eps=0.3 N=61 noisy=1: 3-dominant late 1.00, tight late 1.00, breakups [0, 0, 0, 0, 0], final [(21, 20, 20), (21, 20, 20), (21, 20, 20), (21, 20, 20), (21, 20, 20)]
+eps=0.6 N=60 noisy=0: 3-dominant late 1.00, tight late 1.00, breakups [0, 0, 0, 0, 0], final [(21, 20, 19), (20, 20, 20), (20, 20, 20), (22, 19, 19), (21, 20, 19)]
+eps=0.6 N=60 noisy=1: 3-dominant late 1.00, tight late 1.00, breakups [0, 0, 0, 0, 0], final [(21, 20, 19), (20, 20, 20), (20, 20, 20), (22, 19, 19), (21, 20, 19)]
+eps=0.6 N=61 noisy=0: 3-dominant late 1.00, tight late 1.00, breakups [0, 0, 0, 0, 0], final [(21, 21, 19), (21, 21, 19), (21, 20, 20), (21, 20, 20), (21, 20, 20)]
+eps=0.6 N=61 noisy=1: 3-dominant late 1.00, tight late 1.00, breakups [0, 0, 0, 0, 0], final [(21, 21, 19), (21, 21, 19), (21, 20, 20), (21, 20, 20), (21, 20, 20)]
+eps=1.0 N=60 noisy=0: 3-dominant late 1.00, tight late 1.00, breakups [0, 0, 0, 0, 0], final [(21, 20, 19), (21, 20, 19), (21, 20, 19), (21, 20, 19), (20, 20, 20)]
+eps=1.0 N=60 noisy=1: 3-dominant late 1.00, tight late 1.00, breakups [0, 0, 0, 0, 0], final [(21, 20, 19), (21, 20, 19), (21, 20, 19), (21, 20, 19), (20, 20, 20)]
+eps=1.0 N=61 noisy=0: 3-dominant late 1.00, tight late 1.00, breakups [0, 0, 0, 0, 0], final [(22, 20, 19), (21, 21, 19), (21, 20, 20), (21, 20, 20), (21, 20, 20)]
+eps=1.0 N=61 noisy=1: 3-dominant late 1.00, tight late 1.00, breakups [0, 0, 0, 0, 0], final [(22, 20, 19), (21, 21, 19), (21, 20, 20), (21, 20, 20), (21, 20, 20)]
+saved results/review/E3b_triangle_longtime.json

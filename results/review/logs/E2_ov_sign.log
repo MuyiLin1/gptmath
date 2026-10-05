@@ -1,0 +1,49 @@
+/Users/linmuyi/code/TransformerDynamics/export/verification/ov_sign_check.py:119: RuntimeWarning: divide by zero encountered in matmul
+  base = [head_stats(rng.normal(size=(64, 768)) @ rng.normal(size=(768, 64)))[0] for _ in range(500)]
+/Users/linmuyi/code/TransformerDynamics/export/verification/ov_sign_check.py:119: RuntimeWarning: overflow encountered in matmul
+  base = [head_stats(rng.normal(size=(64, 768)) @ rng.normal(size=(768, 64)))[0] for _ in range(500)]
+/Users/linmuyi/code/TransformerDynamics/export/verification/ov_sign_check.py:119: RuntimeWarning: invalid value encountered in matmul
+  base = [head_stats(rng.normal(size=(64, 768)) @ rng.normal(size=(768, 64)))[0] for _ in range(500)]
+random baseline (Gaussian W_V, W_O, d=768, d_h=64): ratio median -0.001, IQR -0.018..+0.014, negative trace 51.4%
+[E2] 1/4 loading gpt2 ...
+/Users/linmuyi/code/TransformerDynamics/export/verification/ov_sign_check.py:88: RuntimeWarning: divide by zero encountered in matmul
+  r, p = head_stats(Wv_h @ Wo_h)
+/Users/linmuyi/code/TransformerDynamics/export/verification/ov_sign_check.py:88: RuntimeWarning: overflow encountered in matmul
+  r, p = head_stats(Wv_h @ Wo_h)
+/Users/linmuyi/code/TransformerDynamics/export/verification/ov_sign_check.py:88: RuntimeWarning: invalid value encountered in matmul
+  r, p = head_stats(Wv_h @ Wo_h)
+/Users/linmuyi/code/TransformerDynamics/export/verification/ov_sign_check.py:89: RuntimeWarning: divide by zero encountered in matmul
+  rg, pg = head_stats(Wv_h @ (g[:, None] * Wo_h))
+/Users/linmuyi/code/TransformerDynamics/export/verification/ov_sign_check.py:89: RuntimeWarning: overflow encountered in matmul
+  rg, pg = head_stats(Wv_h @ (g[:, None] * Wo_h))
+/Users/linmuyi/code/TransformerDynamics/export/verification/ov_sign_check.py:89: RuntimeWarning: invalid value encountered in matmul
+  rg, pg = head_stats(Wv_h @ (g[:, None] * Wo_h))
+
+GPT-2 small (decoder): 144 heads
+  tr/sum|lam|: median +0.485  IQR -0.372..+0.853  range -1.000..+0.999
+  heads with negative trace (push): 32.6%   push-dominant (push>0.5): 33.3%   strong push (ratio<-0.2): 29.9%   strong pull (ratio>0.2): 59.7%
+  with norm gain: negative trace 31.9%, median ratio +0.491
+  per-layer fraction of push heads: 0.08 0.83 0.75 0.33 0.42 0.25 0.25 0.25 0.33 0.33 0.08 0.00
+[E2] 2/4 loading bert-base-uncased ...
+
+BERT-base-uncased (encoder): 144 heads
+  tr/sum|lam|: median +0.127  IQR -0.492..+0.561  range -0.992..+0.983
+  heads with negative trace (push): 41.7%   push-dominant (push>0.5): 40.3%   strong push (ratio<-0.2): 34.0%   strong pull (ratio>0.2): 46.5%
+  with norm gain: negative trace 41.7%, median ratio +0.127
+  per-layer fraction of push heads: 0.25 0.67 0.58 0.50 0.42 0.42 0.58 0.33 0.42 0.25 0.33 0.25
+[E2] 3/4 loading answerdotai/ModernBERT-base ...
+
+ModernBERT-base (encoder): 264 heads
+  tr/sum|lam|: median +0.198  IQR -0.561..+0.730  range -1.000..+0.999
+  heads with negative trace (push): 42.8%   push-dominant (push>0.5): 43.2%   strong push (ratio<-0.2): 36.7%   strong pull (ratio>0.2): 50.0%
+  with norm gain: negative trace 43.2%, median ratio +0.209
+  per-layer fraction of push heads: 0.25 0.75 0.50 0.42 0.67 0.67 0.42 0.58 0.50 0.42 0.50 0.50 0.33 0.58 0.42 0.08 0.42 0.33 0.25 0.25 0.25 0.33
+[E2] 4/4 loading HuggingFaceTB/SmolLM2-360M ...
+
+SmolLM2-360M (decoder): 480 heads
+  tr/sum|lam|: median +0.319  IQR -0.420..+0.857  range -0.999..+0.999
+  heads with negative trace (push): 39.6%   push-dominant (push>0.5): 39.4%   strong push (ratio<-0.2): 30.2%   strong pull (ratio>0.2): 54.0%
+  with norm gain: negative trace 39.4%, median ratio +0.275
+  per-layer fraction of push heads: 0.73 0.73 0.67 0.67 0.40 0.33 0.40 0.33 0.33 0.40 0.53 0.47 0.53 0.47 0.33 0.33 0.40 0.27 0.33 0.27 0.33 0.27 0.47 0.20 0.73 0.40 0.40 0.33 0.00 0.13 0.13 0.33
+
+saved results/review/E2_ov_sign.json

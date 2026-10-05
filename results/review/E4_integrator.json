@@ -1,0 +1,222 @@
+{
+ "growth": [
+  {
+   "kind": "oop",
+   "scheme": "euler",
+   "dt": 0.05,
+   "rate": 0.010526115557865657
+  },
+  {
+   "kind": "oop",
+   "scheme": "euler",
+   "dt": 0.025,
+   "rate": 0.01080267080968953
+  },
+  {
+   "kind": "inp",
+   "scheme": "euler",
+   "dt": 0.05,
+   "rate": 0.01640269690777869
+  },
+  {
+   "kind": "inp",
+   "scheme": "euler",
+   "dt": 0.025,
+   "rate": 0.016406736135929287
+  },
+  {
+   "kind": "oop",
+   "scheme": "rk4",
+   "dt": 0.05,
+   "rate": 0.011079253852300307
+  },
+  {
+   "kind": "inp",
+   "scheme": "rk4",
+   "dt": 0.05,
+   "rate": 0.016410326500915964
+  }
+ ],
+ "coarsening": [
+  {
+   "seed": 0,
+   "scheme": "euler",
+   "dt": 0.05,
+   "t_tri": 250.0
+  },
+  {
+   "seed": 0,
+   "scheme": "euler",
+   "dt": 0.025,
+   "t_tri": 280.0
+  },
+  {
+   "seed": 1,
+   "scheme": "euler",
+   "dt": 0.05,
+   "t_tri": 150.0
+  },
+  {
+   "seed": 1,
+   "scheme": "euler",
+   "dt": 0.025,
+   "t_tri": 150.0
+  },
+  {
+   "seed": 0,
+   "scheme": "rk4",
+   "dt": 0.05,
+   "t_tri": 310.0
+  },
+  {
+   "seed": 2,
+   "scheme": "euler",
+   "dt": 0.05,
+   "t_tri": 130.0
+  },
+  {
+   "seed": 1,
+   "scheme": "rk4",
+   "dt": 0.05,
+   "t_tri": 150.0
+  },
+  {
+   "seed": 2,
+   "scheme": "euler",
+   "dt": 0.025,
+   "t_tri": 130.0
+  },
+  {
+   "seed": 3,
+   "scheme": "euler",
+   "dt": 0.05,
+   "t_tri": 370.0
+  },
+  {
+   "seed": 2,
+   "scheme": "rk4",
+   "dt": 0.05,
+   "t_tri": 140.0
+  },
+  {
+   "seed": 3,
+   "scheme": "euler",
+   "dt": 0.025,
+   "t_tri": 410.0
+  },
+  {
+   "seed": 4,
+   "scheme": "euler",
+   "dt": 0.05,
+   "t_tri": 180.0
+  },
+  {
+   "seed": 4,
+   "scheme": "euler",
+   "dt": 0.025,
+   "t_tri": 190.0
+  },
+  {
+   "seed": 3,
+   "scheme": "rk4",
+   "dt": 0.05,
+   "t_tri": 490.0
+  },
+  {
+   "seed": 4,
+   "scheme": "rk4",
+   "dt": 0.05,
+   "t_tri": 190.0
+  },
+  {
+   "seed": 5,
+   "scheme": "euler",
+   "dt": 0.05,
+   "t_tri": 130.0
+  },
+  {
+   "seed": 5,
+   "scheme": "euler",
+   "dt": 0.025,
+   "t_tri": 140.0
+  },
+  {
+   "seed": 5,
+   "scheme": "rk4",
+   "dt": 0.05,
+   "t_tri": 140.0
+  },
+  {
+   "seed": 6,
+   "scheme": "euler",
+   "dt": 0.05,
+   "t_tri": 330.0
+  },
+  {
+   "seed": 6,
+   "scheme": "euler",
+   "dt": 0.025,
+   "t_tri": 360.0
+  },
+  {
+   "seed": 7,
+   "scheme": "euler",
+   "dt": 0.05,
+   "t_tri": 240.0
+  },
+  {
+   "seed": 7,
+   "scheme": "euler",
+   "dt": 0.025,
+   "t_tri": 260.0
+  },
+  {
+   "seed": 6,
+   "scheme": "rk4",
+   "dt": 0.05,
+   "t_tri": 390.0
+  },
+  {
+   "seed": 8,
+   "scheme": "euler",
+   "dt": 0.05,
+   "t_tri": 360.0
+  },
+  {
+   "seed": 7,
+   "scheme": "rk4",
+   "dt": 0.05,
+   "t_tri": 280.0
+  },
+  {
+   "seed": 8,
+   "scheme": "euler",
+   "dt": 0.025,
+   "t_tri": 390.0
+  },
+  {
+   "seed": 9,
+   "scheme": "euler",
+   "dt": 0.05,
+   "t_tri": 260.0
+  },
+  {
+   "seed": 9,
+   "scheme": "euler",
+   "dt": 0.025,
+   "t_tri": 270.0
+  },
+  {
+   "seed": 8,
+   "scheme": "rk4",
+   "dt": 0.05,
+   "t_tri": 430.0
+  },
+  {
+   "seed": 9,
+   "scheme": "rk4",
+   "dt": 0.05,
+   "t_tri": 280.0
+  }
+ ]
+}

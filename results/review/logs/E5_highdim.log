@@ -1,0 +1,78 @@
+[E5] 1/36 done (15s): plane eps=0.1 theta2=0.0 seed=0: sizes=[40, 40, 40] converged=True t_conv=3800.0
+[E5] 2/36 done (24s): plane eps=0.1 theta2=0.0 seed=1: sizes=[40, 39, 39, 1, 1] converged=False t_conv=None
+[E5] 3/36 done (37s): plane eps=0.1 theta2=0.0 seed=2: sizes=[40, 40, 40] converged=True t_conv=5800.0
+[E5] 4/36 done (39s): plane eps=0.1 theta2=0.5 seed=0: sizes=[40, 40, 40] converged=True t_conv=4050.0
+[E5] 5/36 done (55s): plane eps=0.1 theta2=0.5 seed=2: sizes=[40, 40, 40] converged=True t_conv=4300.0
+[E5] 6/36 done (59s): plane eps=0.1 theta2=0.5 seed=1: sizes=[40, 40, 39, 1] converged=False t_conv=None
+[E5] 7/36 done (70s): plane eps=0.1 theta2=2.0 seed=0: sizes=[40, 40, 40] converged=True t_conv=3950.0
+[E5] 8/36 done (76s): plane eps=0.1 theta2=2.0 seed=1: sizes=[40, 40, 40] converged=True t_conv=4150.0
+[E5] 9/36 done (86s): plane eps=0.3 theta2=0.0 seed=0: sizes=[41, 40, 39] converged=True t_conv=2400.0
+[E5] 10/36 done (86s): plane eps=0.1 theta2=2.0 seed=2: sizes=[40, 40, 40] converged=True t_conv=3900.0
+[E5] 11/36 done (98s): plane eps=0.3 theta2=0.0 seed=1: sizes=[41, 40, 39] converged=False t_conv=None
+[E5] 12/36 done (98s): plane eps=0.3 theta2=0.0 seed=2: sizes=[41, 40, 39] converged=False t_conv=None
+[E5] 13/36 done (110s): plane eps=0.3 theta2=0.5 seed=0: sizes=[41, 39, 39, 1] converged=False t_conv=None
+[E5] 14/36 done (111s): plane eps=0.3 theta2=0.5 seed=1: sizes=[41, 39, 39, 1] converged=False t_conv=None
+[E5] 15/36 done (116s): plane eps=0.3 theta2=2.0 seed=0: sizes=[41, 40, 39] converged=True t_conv=1250.0
+[E5] 16/36 done (117s): plane eps=0.3 theta2=0.5 seed=2: sizes=[41, 40, 39] converged=True t_conv=1750.0
+[E5] 17/36 done (121s): plane eps=0.3 theta2=2.0 seed=1: sizes=[41, 40, 39] converged=True t_conv=1250.0
+[E5] 18/36 done (123s): plane eps=0.6 theta2=0.0 seed=0: sizes=[42, 39, 39] converged=True t_conv=400.0
+[E5] 19/36 done (123s): plane eps=0.3 theta2=2.0 seed=2: sizes=[41, 40, 39] converged=True t_conv=1600.0
+[E5] 20/36 done (124s): plane eps=0.6 theta2=0.0 seed=1: sizes=[41, 40, 39] converged=True t_conv=300.0
+[E5] 21/36 done (124s): plane eps=0.6 theta2=0.0 seed=2: sizes=[41, 40, 39] converged=True t_conv=300.0
+[E5] 22/36 done (125s): plane eps=0.6 theta2=0.5 seed=0: sizes=[41, 40, 39] converged=True t_conv=300.0
+[E5] 23/36 done (126s): plane eps=0.6 theta2=0.5 seed=1: sizes=[41, 40, 39] converged=True t_conv=300.0
+[E5] 24/36 done (126s): plane eps=0.6 theta2=0.5 seed=2: sizes=[41, 40, 39] converged=True t_conv=250.0
+[E5] 25/36 done (128s): plane eps=0.6 theta2=2.0 seed=0: sizes=[41, 41, 38] converged=True t_conv=500.0
+[E5] 26/36 done (128s): plane eps=0.6 theta2=2.0 seed=1: sizes=[42, 40, 38] converged=True t_conv=400.0
+[E5] 27/36 done (129s): plane eps=0.6 theta2=2.0 seed=2: sizes=[41, 40, 39] converged=True t_conv=300.0
+[E5] 28/36 done (137s): sphere3 eps=0.3 theta2=0.5 seed=0: sizes=[40, 40, 40] converged=True t_conv=2150.0
+[E5] 29/36 done (139s): sphere3 eps=0.3 theta2=0.5 seed=1: sizes=[40, 40, 40] converged=True t_conv=2600.0
+[E5] 30/36 done (145s): sphere3 eps=0.3 theta2=0.5 seed=2: sizes=[40, 40, 40] converged=True t_conv=2300.0
+[E5] 31/36 done (146s): sphere3 eps=0.3 theta2=1.0 seed=0: sizes=[40, 40, 40] converged=True t_conv=2000.0
+[E5] 32/36 done (152s): sphere3 eps=0.3 theta2=1.0 seed=2: sizes=[40, 40, 40] converged=True t_conv=1700.0
+[E5] 33/36 done (154s): sphere3 eps=0.3 theta2=2.0 seed=0: sizes=[40, 40, 40] converged=True t_conv=600.0
+[E5] 34/36 done (156s): sphere3 eps=0.3 theta2=1.0 seed=1: sizes=[41, 40, 39] converged=False t_conv=None
+[E5] 35/36 done (156s): sphere3 eps=0.3 theta2=2.0 seed=1: sizes=[40, 40, 40] converged=True t_conv=600.0
+[E5] 36/36 done (157s): sphere3 eps=0.3 theta2=2.0 seed=2: sizes=[41, 40, 39] converged=True t_conv=450.0
+
+SUMMARY: setting 'plane' (ring expected in the (e1,e2) plane)
+  eps=0.1 theta2=0.0 seed=0: final L_perp=1.5e-05  ring spin=+0.0499 (eps/2=0.0500)  final spin=+0.0499 (Omega_3=0.0499)  sizes=[40, 40, 40]  t_conv=3800.0
+  eps=0.1 theta2=0.0 seed=1: final L_perp=2.2e-03  ring spin=+0.0499 (eps/2=0.0500)  final spin=+0.0498 (Omega_3=0.0499)  sizes=[40, 39, 39, 1, 1]  t_conv=None
+  eps=0.1 theta2=0.0 seed=2: final L_perp=6.3e-06  ring spin=+0.0499 (eps/2=0.0500)  final spin=+0.0499 (Omega_3=0.0499)  sizes=[40, 40, 40]  t_conv=5800.0
+  eps=0.1 theta2=0.5 seed=0: final L_perp=6.4e-06  ring spin=+0.0499 (eps/2=0.0500)  final spin=+0.0499 (Omega_3=0.0499)  sizes=[40, 40, 40]  t_conv=4050.0
+  eps=0.1 theta2=0.5 seed=1: final L_perp=1.4e-03  ring spin=+0.0499 (eps/2=0.0500)  final spin=+0.0498 (Omega_3=0.0499)  sizes=[40, 40, 39, 1]  t_conv=None
+  eps=0.1 theta2=0.5 seed=2: final L_perp=5.4e-06  ring spin=+0.0499 (eps/2=0.0500)  final spin=+0.0499 (Omega_3=0.0499)  sizes=[40, 40, 40]  t_conv=4300.0
+  eps=0.1 theta2=2.0 seed=0: final L_perp=8.0e-06  ring spin=+0.0499 (eps/2=0.0500)  final spin=+0.0499 (Omega_3=0.0499)  sizes=[40, 40, 40]  t_conv=3950.0
+  eps=0.1 theta2=2.0 seed=1: final L_perp=3.5e-05  ring spin=+0.0499 (eps/2=0.0500)  final spin=+0.0499 (Omega_3=0.0499)  sizes=[40, 40, 40]  t_conv=4150.0
+  eps=0.1 theta2=2.0 seed=2: final L_perp=6.6e-06  ring spin=+0.0499 (eps/2=0.0500)  final spin=+0.0499 (Omega_3=0.0499)  sizes=[40, 40, 40]  t_conv=3900.0
+  eps=0.3 theta2=0.0 seed=0: final L_perp=1.1e-06  ring spin=+nan (eps/2=0.1500)  final spin=+0.1481 (Omega_3=0.1483)  sizes=[41, 40, 39]  t_conv=2400.0
+  eps=0.3 theta2=0.0 seed=1: final L_perp=8.3e-05  ring spin=+nan (eps/2=0.1500)  final spin=+0.1481 (Omega_3=0.1483)  sizes=[41, 40, 39]  t_conv=None
+  eps=0.3 theta2=0.0 seed=2: final L_perp=2.9e-05  ring spin=+nan (eps/2=0.1500)  final spin=+0.1481 (Omega_3=0.1483)  sizes=[41, 40, 39]  t_conv=None
+  eps=0.3 theta2=0.5 seed=0: final L_perp=2.2e-04  ring spin=+nan (eps/2=0.1500)  final spin=+0.1481 (Omega_3=0.1483)  sizes=[41, 39, 39, 1]  t_conv=None
+  eps=0.3 theta2=0.5 seed=1: final L_perp=1.7e-04  ring spin=+nan (eps/2=0.1500)  final spin=+0.1481 (Omega_3=0.1483)  sizes=[41, 39, 39, 1]  t_conv=None
+  eps=0.3 theta2=0.5 seed=2: final L_perp=6.4e-06  ring spin=+nan (eps/2=0.1500)  final spin=+0.1481 (Omega_3=0.1483)  sizes=[41, 40, 39]  t_conv=1750.0
+  eps=0.3 theta2=2.0 seed=0: final L_perp=1.5e-05  ring spin=+nan (eps/2=0.1500)  final spin=+0.1481 (Omega_3=0.1483)  sizes=[41, 40, 39]  t_conv=1250.0
+  eps=0.3 theta2=2.0 seed=1: final L_perp=1.2e-04  ring spin=+nan (eps/2=0.1500)  final spin=+0.1481 (Omega_3=0.1483)  sizes=[41, 40, 39]  t_conv=1250.0
+  eps=0.3 theta2=2.0 seed=2: final L_perp=8.0e-06  ring spin=+nan (eps/2=0.1500)  final spin=+0.1481 (Omega_3=0.1483)  sizes=[41, 40, 39]  t_conv=1600.0
+  eps=0.6 theta2=0.0 seed=0: final L_perp=2.6e-05  ring spin=+nan (eps/2=0.3000)  final spin=+0.2864 (Omega_3=0.2872)  sizes=[42, 39, 39]  t_conv=400.0
+  eps=0.6 theta2=0.0 seed=1: final L_perp=1.2e-04  ring spin=+nan (eps/2=0.3000)  final spin=+0.2869 (Omega_3=0.2872)  sizes=[41, 40, 39]  t_conv=300.0
+  eps=0.6 theta2=0.0 seed=2: final L_perp=2.5e-05  ring spin=+nan (eps/2=0.3000)  final spin=+0.2869 (Omega_3=0.2872)  sizes=[41, 40, 39]  t_conv=300.0
+  eps=0.6 theta2=0.5 seed=0: final L_perp=4.0e-05  ring spin=+nan (eps/2=0.3000)  final spin=+0.2869 (Omega_3=0.2872)  sizes=[41, 40, 39]  t_conv=300.0
+  eps=0.6 theta2=0.5 seed=1: final L_perp=1.1e-04  ring spin=+nan (eps/2=0.3000)  final spin=+0.2869 (Omega_3=0.2872)  sizes=[41, 40, 39]  t_conv=300.0
+  eps=0.6 theta2=0.5 seed=2: final L_perp=4.3e-05  ring spin=+nan (eps/2=0.3000)  final spin=+0.2869 (Omega_3=0.2872)  sizes=[41, 40, 39]  t_conv=250.0
+  eps=0.6 theta2=2.0 seed=0: final L_perp=2.1e-05  ring spin=+nan (eps/2=0.3000)  final spin=+0.2863 (Omega_3=0.2872)  sizes=[41, 41, 38]  t_conv=500.0
+  eps=0.6 theta2=2.0 seed=1: final L_perp=3.5e-05  ring spin=+nan (eps/2=0.3000)  final spin=+0.2860 (Omega_3=0.2872)  sizes=[42, 40, 38]  t_conv=400.0
+  eps=0.6 theta2=2.0 seed=2: final L_perp=4.9e-05  ring spin=+nan (eps/2=0.3000)  final spin=+0.2869 (Omega_3=0.2872)  sizes=[41, 40, 39]  t_conv=300.0
+
+SUMMARY: setting 'sphere3' (resting set is a 3-sphere)
+  theta2=0.5 seed=0: final L_e5=8.2e-07 spin12=+0.1433 spin34=+0.1434 cov eigs=[0.5, 0.5, 0.0, 0.0, 0.0] sizes=[40, 40, 40]
+  theta2=0.5 seed=1: final L_e5=1.2e-05 spin12=+0.1431 spin34=+0.1431 cov eigs=[0.5, 0.5, 0.0, 0.0, 0.0] sizes=[40, 40, 40]
+  theta2=0.5 seed=2: final L_e5=1.1e-04 spin12=+0.1479 spin34=+0.1321 cov eigs=[0.5, 0.5, 0.0, 0.0, 0.0] sizes=[40, 40, 40]
+  theta2=1.0 seed=0: final L_e5=8.9e-06 spin12=+0.1483 spin34=+0.1483 cov eigs=[0.5, 0.5, 0.0, 0.0, 0.0] sizes=[40, 40, 40]
+  theta2=1.0 seed=1: final L_e5=7.0e-06 spin12=+0.1482 spin34=+0.1481 cov eigs=[0.52, 0.48, 0.0, 0.0, 0.0] sizes=[41, 40, 39]
+  theta2=1.0 seed=2: final L_e5=7.5e-06 spin12=+0.1483 spin34=+0.1483 cov eigs=[0.5, 0.5, 0.0, 0.0, 0.0] sizes=[40, 40, 40]
+  theta2=2.0 seed=0: final L_e5=1.2e-05 spin12=+0.2819 spin34=+0.2813 cov eigs=[0.5, 0.5, 0.0, 0.0, 0.0] sizes=[40, 40, 40]
+  theta2=2.0 seed=1: final L_e5=8.4e-05 spin12=+0.2809 spin34=+0.2835 cov eigs=[0.5, 0.5, 0.0, 0.0, 0.0] sizes=[40, 40, 40]
+  theta2=2.0 seed=2: final L_e5=2.2e-06 spin12=-0.5241 spin34=+0.2862 cov eigs=[0.517, 0.483, 0.0, 0.0, 0.0] sizes=[41, 40, 39]
+
+saved results/review/E5_highdim.json and results/figures/highdim.png

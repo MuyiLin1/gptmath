@@ -1,4 +1,4 @@
-# Code for "Antisymmetry Breaks the Gradient-Flow Structure of Self-Attention"
+# Code for "From Rest to Rotation: Antisymmetric Attention Creates Rotating Steady States in Mean-Field Transformer Dynamics"
 
 This folder has all the code behind the figures and numerical checks in the paper.
 We simulate the **true** (un-truncated, full-exponential) self-attention flow of
@@ -22,9 +22,12 @@ export/
 ├── tfdy/            small support package: the flow integrator (optim_diracs.usa_flow) and 3D sphere plotting
 ├── figures/         one script per paper figure (outputs go to results/figures/)
 ├── verification/    scripts that check specific theorems/claims numerically (print to stdout)
+├── run_review_experiments.sh   runs the experiments E1–E11 below in sequence, with logs
+├── check_progress.sh           shows which of them is running
 └── results/
     ├── figures/     the regenerated paper figures
-    └── logs/        stdout of every script from our reference run
+    ├── logs/        stdout of every script from our reference run
+    └── review/      JSON results and logs of the experiments E1–E11
 ```
 
 `results/` is generated output. You can delete it; the scripts recreate
@@ -39,9 +42,14 @@ pip install -r requirements.txt
 ```
 
 Tested with Python 3.14, numpy 2.4, scipy 1.17, matplotlib 3.10, torch 2.11, scikit-learn 1.8.
-`verification/qk_asymmetry_check.py` additionally needs `transformers` (tested with 5.5)
-and downloads GPT-2, BERT, ModernBERT and SmolLM2 weights (licenses: MIT, Apache 2.0,
-Apache 2.0, Apache 2.0); it is the only script that uses the network.
+Four scripts read pretrained weights from the Hugging Face hub (licenses: GPT-2 MIT; BERT,
+ModernBERT, SmolLM2 Apache 2.0) and are the only ones that use the network:
+`qk_asymmetry_check.py` and `ov_sign_check.py` (all four models), and
+`trained_head_flow.py` and `antisym_depth.py` (GPT-2 and BERT; these also run the models
+on two short text passages, so they need `transformers`; tested with torch 2.4 and
+transformers 4.41). Once the weights are cached, set `HF_HUB_OFFLINE=1`. Behind a proxy that
+inspects HTTPS, point `REQUESTS_CA_BUNDLE` at your system certificates (the runner does this
+on macOS).
 Everything runs on CPU. LaTeX is not needed, because the figures use matplotlib mathtext.
 `scienceplots` is optional: without it you get a harmless `Scienplots not available!`
 warning, and the reference figures were produced without it.
@@ -122,6 +130,33 @@ reproducible.
 
 Scripts with `PROBE_N` / `PROBE_BETA` can be rerun at other sizes, e.g.
 `PROBE_N=96 PYTHONPATH=. python verification/ring_linearization.py`.
+
+## Experiments E1–E11 (value matrix, trained heads, long runs)
+
+These scripts write JSON to `results/review/` and a log to `results/review/logs/`.
+`zsh run_review_experiments.sh` runs all of them in sequence at low priority
+(`WORKERS` sets the number of processes, default 2; `PY` is the python for the numpy-only
+scripts, `PYHF` the one with torch + transformers). `zsh check_progress.sh` shows progress.
+All are deterministic given the seeds in each file.
+
+| ID | Script | What it checks (paper reference) | Output | Runtime* |
+|---|---|---|---|---|
+| E1 | `value_matrix_sweep.py` | Long-time state under V = −Id, +Id, −D, +D, for D_s = diag(0,0,1) and D_s = Id, from random and ring starts: only V = −Id keeps moving. (Sec. "role of the value matrix", Table "value-sims") | `E1_value_matrices.json` | 15 min |
+| E2 | `ov_sign_check.py` | Sign of the value–output map of every head of GPT-2, BERT, ModernBERT, SmolLM2: 33–43% push on balance. (App. "Sign of the value–output map", Table "ov") | `E2_ov_sign.json` | 1 min after download |
+| E3 | `triangle_sweep_large.py` | 780 runs over eps, N (incl. N not divisible by 3), beta and start type: all end in three dominant clusters. (Obs. "triangle selection", App. "triangle sweep") | `E3_triangle_sweep.json` | 1–2 h |
+| E3b | `triangle_longtime.py` | 80 long runs (N = 60, 61), with and without 1e-8 kicks: three groups remain; at N = 61, eps = 0.1 they break up and re-form. (App. "triangle sweep", Remark "unequal triangles") | `E3b_triangle_longtime.json` | 30 min |
+| E4 | `integrator_check.py` | RK4 vs forward Euler: growth rates to 0.04% with RK4; Euler forms the triangle about 13% earlier but reaches the same state. (App. "growth", "settings") | `E4_integrator.json` | 5 min |
+| E5 | `highdim_check.py` | The ring and triangle on S^4 spin at the predicted rates; with a 3-sphere resting set the tokens still end on one great circle. Writes `results/figures/highdim.png`. (App. "higher dimensions") | `E5_highdim.json` | 30 min |
+| E6 | `lemma_fix_check.py` | The ripple law of Lemma "Ldot" with its G term, the general near-ring law, the polar lemma, and Prop. "VD" (zero circulation for V = −D). | `E6_lemma_checks.json` | <1 min |
+| E7 | `trained_head_flow.py` | All 288 heads of GPT-2 and BERT run as the flow with their own weights, real token states, D vs its symmetric part, and V, its symmetric part, or its pushing part, to T = 1000: heads with a pulling direction collapse; the 12 pure-push heads keep moving, ~9× faster with the antisymmetric part. Summary: `SUMMARY=results/review/E7_trained_heads.json python verification/trained_head_flow.py`. (App. "trained heads", Table "trained") | `E7_trained_heads.json` (`E7_gpt2.json`: an independent GPT-2 rerun, identical) | 3–5 h (4 workers) |
+| E8 | `lowrank_value_check.py` | V = diag(−1,−1,c): the ring rotates at the same rate for every c, is held for c < 0, neutral at c = 0, and collapses for c > 0; S^4 with rank-2 push. `EXT=1` adds c = ±0.1 and long runs. (App. "partial and mixed value matrices") | `E8_lowrank_value.json`, `E8b_lowrank_ext.json` | 10 + 20 min |
+| E9 | `unequal_triangle_check.py` | Unequal rotating triangles (21/20/19, ...) exist; their linear stability depends on eps. (Remark "unequal triangles") | `E9_unequal_triangle.json` | 2 min |
+| E10 | `antisym_share.py` | Share of each trained head's token motion removed by symmetrizing D (about half), against a random antisymmetric part of equal norm. Needs the E7 cache. (App. "trained heads") | `E10_antisym_share.json` | 1 min |
+| E11 | `antisym_depth.py` | Each trained head iterated for 1–48 layers with its real per-layer step: after 12 layers the antisymmetric part moves a token by ~19° and changes a third of nearest neighbours. Needs the E7 cache. (App. "trained heads") | `E11_antisym_depth.json` | 3 min |
+
+\*Laptop CPU. `trained_head_flow.py` first builds `results/review/E7_heads.npz` (~650 MB: the
+head matrices and token states), and `antisym_depth.py` builds `E11_steps.npz`; both caches are
+regenerated automatically and are not included in the archive.
 
 ## Conventions
 

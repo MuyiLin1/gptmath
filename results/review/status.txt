@@ -1,0 +1,16 @@
+2026-10-04 16:37:10 RUNNER START (pid 36893, WORKERS=2)
+2026-10-04 16:37:10 START E6_lemma_checks
+2026-10-04 16:37:10 END   E6_lemma_checks exit=0
+2026-10-04 16:37:11 START E1_value_matrices
+2026-10-04 16:39:44 END   E1_value_matrices exit=0
+2026-10-04 16:39:44 START E2_ov_sign
+2026-10-04 16:39:47 END   E2_ov_sign exit=0
+2026-10-04 16:39:47 START E3_triangle_sweep
+2026-10-04 16:55:48 END   E3_triangle_sweep exit=0
+2026-10-04 16:55:48 START E4_integrator
+2026-10-04 16:56:07 END   E4_integrator exit=0
+2026-10-04 16:56:07 START E5_highdim
+2026-10-04 16:57:20 END   E5_highdim exit=0
+2026-10-04 17:30:30 START E2_ov_sign (rerun with macOS CA bundle)
+2026-10-04 17:39:14 END   E2_ov_sign exit=0
+2026-10-04 17:39:14 ALL DONE

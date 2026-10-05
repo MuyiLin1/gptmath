@@ -1,0 +1,55 @@
+1. Zero-sum ripple: measured Ldot vs -2 beta L^2 - G
+  cos2       beta=0.0 amp=0.020  Ldot=-6.1833e-22 pred=-6.0185e-40  (Ldot-pred)/L^2=-1.55e-14  cubic coeff=-0.000
+  cos2       beta=0.0 amp=0.010  Ldot=-2.0964e-22 pred=-3.7616e-41  (Ldot-pred)/L^2=-8.39e-14  cubic coeff=-0.000
+  cos2       beta=0.5 amp=0.020  Ldot=-3.9988e-08 pred=-4.0000e-08  (Ldot-pred)/L^2=+3.00e-04  cubic coeff=+1.500
+  cos2       beta=0.5 amp=0.010  Ldot=-2.4998e-09 pred=-2.5000e-09  (Ldot-pred)/L^2=+7.50e-05  cubic coeff=+1.500
+  cos2       beta=1.0 amp=0.020  Ldot=-7.9976e-08 pred=-8.0000e-08  (Ldot-pred)/L^2=+6.00e-04  cubic coeff=+3.000
+  cos2       beta=1.0 amp=0.010  Ldot=-4.9996e-09 pred=-5.0000e-09  (Ldot-pred)/L^2=+1.50e-04  cubic coeff=+3.000
+  cos2       beta=2.0 amp=0.020  Ldot=-1.5995e-07 pred=-1.6000e-07  (Ldot-pred)/L^2=+1.20e-03  cubic coeff=+6.001
+  cos2       beta=2.0 amp=0.010  Ldot=-9.9992e-09 pred=-1.0000e-08  (Ldot-pred)/L^2=+3.00e-04  cubic coeff=+6.000
+  cos3       beta=0.0 amp=0.020  Ldot=-2.7529e-23 pred=-2.4450e-40  (Ldot-pred)/L^2=-6.88e-16  cubic coeff=-0.000
+  cos3       beta=0.0 amp=0.010  Ldot=-2.4193e-22 pred=-1.5281e-41  (Ldot-pred)/L^2=-9.68e-14  cubic coeff=-0.000
+  cos3       beta=0.5 amp=0.020  Ldot=-3.9988e-08 pred=-4.0000e-08  (Ldot-pred)/L^2=+3.00e-04  cubic coeff=+1.500
+  cos3       beta=0.5 amp=0.010  Ldot=-2.4998e-09 pred=-2.5000e-09  (Ldot-pred)/L^2=+7.50e-05  cubic coeff=+1.500
+  cos3       beta=1.0 amp=0.020  Ldot=-7.9976e-08 pred=-8.0000e-08  (Ldot-pred)/L^2=+6.00e-04  cubic coeff=+3.000
+  cos3       beta=1.0 amp=0.010  Ldot=-4.9996e-09 pred=-5.0000e-09  (Ldot-pred)/L^2=+1.50e-04  cubic coeff=+3.000
+  cos3       beta=2.0 amp=0.020  Ldot=-1.5995e-07 pred=-1.6000e-07  (Ldot-pred)/L^2=+1.20e-03  cubic coeff=+6.001
+  cos3       beta=2.0 amp=0.010  Ldot=-9.9992e-09 pred=-1.0000e-08  (Ldot-pred)/L^2=+3.00e-04  cubic coeff=+6.000
+  cos2+cos3  beta=0.0 amp=0.020  Ldot=-3.9988e-08 pred=-4.0000e-08  (Ldot-pred)/L^2=+7.50e-05  cubic coeff=+0.188
+  cos2+cos3  beta=0.0 amp=0.010  Ldot=-2.4998e-09 pred=-2.5000e-09  (Ldot-pred)/L^2=+1.88e-05  cubic coeff=+0.188
+  cos2+cos3  beta=0.5 amp=0.020  Ldot=-1.9984e-07 pred=-2.0000e-07  (Ldot-pred)/L^2=+1.02e-03  cubic coeff=+2.555
+  cos2+cos3  beta=0.5 amp=0.010  Ldot=-1.2497e-08 pred=-1.2500e-08  (Ldot-pred)/L^2=+2.55e-04  cubic coeff=+2.555
+  cos2+cos3  beta=1.0 amp=0.020  Ldot=-3.5966e-07 pred=-3.6000e-07  (Ldot-pred)/L^2=+2.12e-03  cubic coeff=+5.297
+  cos2+cos3  beta=1.0 amp=0.010  Ldot=-2.2495e-08 pred=-2.2500e-08  (Ldot-pred)/L^2=+5.30e-04  cubic coeff=+5.297
+  cos2+cos3  beta=2.0 amp=0.020  Ldot=-6.7924e-07 pred=-6.8000e-07  (Ldot-pred)/L^2=+4.76e-03  cubic coeff=+11.906
+  cos2+cos3  beta=2.0 amp=0.010  Ldot=-4.2488e-08 pred=-4.2500e-08  (Ldot-pred)/L^2=+1.19e-03  cubic coeff=+11.906
+  expected: (Ldot-pred)/L^2 -> 0 as amp -> 0; cubic coeff = 3*beta for cos2
+
+2. General near-ring law (no tilt): z = delta + a cos2phi + b cos3phi
+  beta=0.5 delta=0.01 a=0.01 b=0.0: Ldot=-1.9996e-04 pred=-1.9996e-04 (Ldot-pred)/L^2=+9.72e-05  sign ok: True
+  beta=0.5 delta=0.005 a=0.01 b=0.01: Ldot=-4.9999e-05 pred=-4.9999e-05 (Ldot-pred)/L^2=+2.61e-04  sign ok: True
+  beta=0.5 delta=0.002 a=0.02 b=0.01: Ldot=-8.0674e-06 pred=-8.0675e-06 (Ldot-pred)/L^2=+5.41e-04  sign ok: True
+  beta=1.0 delta=0.01 a=0.01 b=0.0: Ldot=-1.9996e-04 pred=-1.9996e-04 (Ldot-pred)/L^2=+1.94e-04  sign ok: True
+  beta=1.0 delta=0.005 a=0.01 b=0.01: Ldot=-5.0011e-05 pred=-5.0011e-05 (Ldot-pred)/L^2=+5.45e-04  sign ok: True
+  beta=1.0 delta=0.002 a=0.02 b=0.01: Ldot=-8.1309e-06 pred=-8.1310e-06 (Ldot-pred)/L^2=+1.12e-03  sign ok: True
+
+3. Polar configurations (beta = 2, V = -Id, eps = 0)
+  10/0: #pos=18 #neg= 0 distinct=[0.0, 1.0]  predicted c+-={'c_north': np.float64(1.0), 'c_south': None}
+  5/5: #pos=16 #neg= 2 distinct=[-0.036, 0.0, 0.964]  predicted c+-={'c_north': np.float64(0.9640275800758169), 'c_south': np.float64(0.9640275800758169)}
+  3/7: #pos=16 #neg= 2 distinct=[-0.0488, 0.0, 0.918, 0.9844]  predicted c+-={'c_north': np.float64(0.9180301233918929), 'c_south': np.float64(0.9844231523453709)}
+  2/8: #pos=16 #neg= 2 distinct=[-0.0728, 0.0, 0.8635, 0.9909]  predicted c+-={'c_north': np.float64(0.8634769187171429), 'c_south': np.float64(0.9908839222526583)}
+  1/9: #pos=16 #neg= 2 distinct=[-0.1435, 0.0, 0.9959]  predicted c+-={'c_north': None, 'c_south': np.float64(0.9959381242302601)}
+  expected: single pole {0, +1}; every split has a positive eigenvalue; predicted c+- appear in the list
+
+4. Proposition VD: circulation of V=-D field vs V=-Id field around great circles
+  random D #0: circulation V=-D +8.93e-17   V=-Id +0.471
+  random D #1: circulation V=-D -1.12e-16   V=-Id -0.329
+  random D #2: circulation V=-D -1.56e-16   V=-Id -0.184
+  random D #3: circulation V=-D -4.46e-17   V=-Id -1.133
+  random D #4: circulation V=-D +4.46e-17   V=-Id +1.037
+  uniform equatorial ring, eps=0.1: max |velocity| under V=-D = 4.2e-17
+  uniform equatorial ring, eps=0.3: max |velocity| under V=-D = 1.5e-16
+  uniform equatorial ring, eps=1.0: max |velocity| under V=-D = 5.6e-16
+  uniform equatorial ring, eps=3.0: max |velocity| under V=-D = 2.4e-15
+
+saved results/review/E6_lemma_checks.json
